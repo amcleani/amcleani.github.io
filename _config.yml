@@ -28,7 +28,7 @@ twitter_username: antoniocleani
 github_username:  antoniocleani
 
 # Build settings
-theme: minima
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
