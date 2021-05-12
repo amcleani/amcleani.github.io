@@ -11,7 +11,7 @@ Starting in Fall 2021, I will begin my doctoral studies in Philosophy at the Uni
 
 ## About me
 
-I was born in Italy, in a small town in the north-eastern part of the country called Udine. You might know it as the venue of the [Far East Film Festival](https://www.fareastfilm.com/), one of the most important events promoting Eastern Asian cinema in Europe, or perhaps for its football team, Udinese. Here's a picture.
+I was born in Italy, in a small town in the north-eastern part of the country called Udine. You might know it as the venue of the [Far East Film Festival](https://www.fareastfilm.com/), one of the most important events promoting eastern Asian cinema in Europe, or perhaps as the town where [Birra Moretti](https://www.birramoretti.com/) was first brewed. Here's a picture taken from the main square. 
 
 ![Art-and-architecture-Udine-IMG_7286](https://user-images.githubusercontent.com/83827021/117941727-aab58600-b30a-11eb-95bd-3a137a256f79.jpg)
 
