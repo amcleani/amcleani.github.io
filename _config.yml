@@ -28,10 +28,11 @@ twitter_username: antoniocleani
 github_username:  antoniocleani
 
 # Build settings
-remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+
+remote_theme: jekyll/minima
 
   minima:
     skin: dark
