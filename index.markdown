@@ -5,13 +5,14 @@
 layout: page
 title: Home
 ---
-Site under construction
+(Site under construction)
 
-## About me
 Starting in Fall 2021, I will begin my doctoral studies in Philosophy at the University of Southern California. Currently, I am studying mathematical logic at postgraduate level (MSc) at the Institute for Logic, Language and Computation, University of Amsterdam. Before that, I did an MLitt in Philosophy at the University of St Andrews and the University of Stirling, and earlier still I was a Philosophy undergrad at the University of Padua. For more on my research, go [here](/research/).
 
-I was born in Italy, in a small town in the north-eastern part of the country called Udine. Here's a picture.
+## About me
+
+I was born in Italy, in a small town in the north-eastern part of the country called Udine. You might know it as the venue of the [Far East Film Festival](https://www.fareastfilm.com/), one of the most important events promoting Eastern Asian cinema in Europe, or perhaps for its football team, Udinese. Here's a picture.
 
 ![Art-and-architecture-Udine-IMG_7286](https://user-images.githubusercontent.com/83827021/117941727-aab58600-b30a-11eb-95bd-3a137a256f79.jpg)
 
-
+I keep in touch with my Italian background while abroad by preparing and enjoying traditional Italian meals. 
