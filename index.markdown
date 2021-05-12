@@ -15,4 +15,4 @@ I was born in Italy, in a small town in the north-eastern part of the country ca
 
 ![Art-and-architecture-Udine-IMG_7286](https://user-images.githubusercontent.com/83827021/117941727-aab58600-b30a-11eb-95bd-3a137a256f79.jpg)
 
-I keep in touch with my Italian background while abroad by preparing and enjoying traditional Italian meals. 
+I've been living abroad for a few years now, but I keep in touch with my Italian background by preparing and enjoying traditional Italian meals. 
