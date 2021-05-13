@@ -30,12 +30,8 @@ github_username:  antoniocleani
 # Build settings
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
 
-remote_theme: jekyll/minima
-
-minima:
-  skin: dark
+theme: minimal-mistakes-jekyll
 
 # Exclude from processing.
 # The following items will not be processed, by default.
