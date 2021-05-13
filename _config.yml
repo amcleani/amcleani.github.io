@@ -27,12 +27,21 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: antoniocleani
 github_username:  antoniocleani
 
+author:
+  name     : "Antonio Maria Cleani"
+  # avatar   : "/assets/images/bio-photo.jpg"
+  bio      : "Test bio"
+  location : "Amsterdam, the Netherlands"
+
+
 # Build settings
 plugins:
   - jekyll-feed
   - jekyll-include-cache
 
 remote_theme: "mmistakes/minimal-mistakes@4.22.0"
+minimal_mistakes_skin: "dark"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
