@@ -33,10 +33,10 @@ Quantificationalism. (Email for draft)
 
 > Temporalism is the view that some true propositions used to be false or will become false. For example, the proposition that Gavin Newsom is the governor of California is true, but used to be false in the 80s. Analogously, Modalism is the view that some true propositions could have been false. The true proposition
 that Gavin Newsom is the governor of California could have been false if the 2021 California gubernatorial recall election had gone another way.
-
+>
 > I introduce a thesis that is to quantification what Temporalism and Modalism are to time and modality respectively. It is
 the thesis  that some true propositions are false at or relative to some domains of quantifications. I call this view Quantificationalism.
-
+>
 > After presenting a programmatic picture of possible applications of Quantificationalism, I present various higher-order logics in which Quantificationalism can be precisely formulated and shown to be consistent. These logics can be given a semantics extending Bacon's (2019) framework of substitution structures. I apply the resulting framework to formulate and study various notions of philosophical interest. 
 
 

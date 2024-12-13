@@ -15,4 +15,6 @@ cleani[at]usc[dot]edu
 
 # Links
 
-[PhilPeople](https://philpeople.org/profiles/antonio-maria-cleani)
+[PhilPeople](https://philpeople.org/profiles/antonio-maria-cleani) 
+
+[CV](/assets/cv.pdf)
