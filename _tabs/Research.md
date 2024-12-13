@@ -12,7 +12,7 @@ order: 1
 
 # Under review
 
-Blok-Esakia Theorems via Stable Canonical Rules (with Nick Bezhanishvili). *Journal of Symbolic Logic*. Conditionally accepted. 
+<a href="assets/papers/tevscr.pdf" download>Blok-Esakia Theorems via Stable Canonical Rules</a> (with Nick Bezhanishvili). *Journal of Symbolic Logic*. Conditionally accepted. 
 
 > We present a new uniform method for studying modal companions of superintuitionistic rule systems and related notions, based on the machinery of stable canonical rules. Using this method, we obtain  alternative proofs of the Blok-Esakia theorem and of the Dummett-Lemmon conjecture for rule systems. Since stable canonical rules may be developed for any rule system admitting filtration, our method generalizes smoothly to richer signatures. Using essentially the same argument, we obtain a proof of an analogue of the Blok-Esakia theorem for bi-superintuitionistic and tense rule systems, and of the Kuznetsov-Muravitsky isomorphism between rule systems extending the modal intuitionistic logic $\logic{KM}$ and modal rule systems extending the provability logic  $\logic{GL}$. In addition, our proof of the Dummett-Lemmon conjecture also generalizes to the bi-superintuitionistic and tense cases.
 
