@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Antonio M. Cleani"
 # Index page
 ---
 
