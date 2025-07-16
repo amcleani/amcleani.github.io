@@ -12,7 +12,7 @@ I work primarily on topics in philosophical logic and metaphysics. The main proj
 
 I'm also active in mathematical logic. In recent work with [Nick Bezhanishvili](https://staff.fnwi.uva.nl/n.bezhanishvili/), we give a new [[proof of the Blok-Esakia theorem via stable canonical rules|new proof of the Blok-Esakia theorem]], which states that the lattice of superintuitionistic logics is isomorphic to that of normal extensions of the modal logic $\mathtt{Grz}$. Our proof leverages the machinery of [[Stable canonical rule|stable canonical rules]] and can be readily generalized to prove analogous results in richer signatures. 
 
-As you've probably noticed, this website is sprinkled with internal links to pages about concepts, theses, arguments and results related to my work. These pages contain excerpts from my papers or my notes. I'm hoping these pages can be useful to people who want to know a little more about what I do without having to read whole papers. (This functionality is a work in progress, so some links may not work yet.)
+As you've probably noticed, this website is sprinkled with internal links to pages about concepts, theses, arguments and results related to my work. These pages contain excerpts from my papers or my notes. I'm hoping they can be useful to people who want to know a little more about what I do without having to read whole papers. (This functionality is a work in progress, so some links may not work yet.)
 
 
 You can email me at: cleani[at]usc[dot]edu
