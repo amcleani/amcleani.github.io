@@ -22,10 +22,10 @@ export default ((userOpts?: Partial<Options>) => {
         <h3>{opts.title}</h3>
         <ul>
           <li>
-            <h3 style={{marginTop: 0, marginBottom: 0}}><a href="/research">Research</a></h3>
+            <h3 style={{marginTop: 0, marginBottom: 0}}><a href="/Research.md">Research</a></h3>
           </li>
           <li>
-            <h3 style={{marginTop: 0, marginBottom: 0}}><a href="/teaching">Teaching</a></h3>
+            <h3 style={{marginTop: 0, marginBottom: 0}}><a href="/Teaching.md">Teaching</a></h3>
           </li>
           <li>
             <h3 style={{marginTop: 0, marginBottom: 0}}><a href="/cv.pdf">CV</a></h3>
