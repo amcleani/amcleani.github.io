@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Antonio Maria Cleani",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "amcleani.github.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
@@ -40,14 +40,14 @@ const config: QuartzConfig = {
           textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#161618",
+          light: "rgba(22, 22, 24, 1)",
           lightgray: "#393639",
           gray: "#646464",
           darkgray: "#d4d4d4",
           dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          secondary: "rgba(0, 255, 255, 0.9)",
+          tertiary: "rgba(132, 165, 157, 1)",
+          highlight: "rgba(22, 22, 24, 0)",
           textHighlight: "#b3aa0288",
         },
       },
@@ -71,7 +71,7 @@ const config: QuartzConfig = {
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
-      Plugin.Latex({ renderEngine: "katex" }),
+      Plugin.Latex({ renderEngine: "mathjax", customMacros: {"\\R": "\\mathbb{R}"} }),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [

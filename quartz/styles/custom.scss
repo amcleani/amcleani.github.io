@@ -1,3 +1,40 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+.callout {
+   &[data-callout="published"] {
+    --color: rgb(0, 255, 255);
+    --border: rgba(0, 255, 255, 0.2);
+    --bg: rgba(0, 255, 255, 0.05);
+    --callout-icon: var(--callout-icon-success);
+  }
+
+  &[data-callout="shareable"] {
+    --color: rgb(255, 255, 0);
+    --border: rgba(255, 255 , 0, 0.2);
+    --bg: rgba(255, 255, 0, 0.05);
+    --callout-icon: var(--callout-icon-question);
+  }
+
+  &[data-callout="notshareable"] {
+    --color: rgb(255, 0, 255);
+    --border: rgba(255, 0, 255, 0.2);
+    --bg: rgba(255, 0, 255, 0.05);
+    --callout-icon: var(--callout-icon-failure);
+  }
+
+  &[data-callout="thesis"] {
+    --color: rgb(0, 255, 255);
+    --border: rgba(0, 255, 255, 0.2);
+    --bg: rgba(0, 255, 255, 0.05);
+    --callout-icon: var(--callout-icon-tip);
+  }
+
+  &[data-callout="citation"] {
+    --color: rgb(0, 255, 255);
+    --border: rgba(0, 255, 255, 0.2);
+    --bg: rgba(0, 255, 255, 0.05);
+    --callout-icon: var(--callout-icon-abstract);
+  }
+}
