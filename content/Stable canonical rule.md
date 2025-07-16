@@ -40,8 +40,7 @@ When $\mathfrak{M}$ is a modal algebra, let $\mathfrak{M}_*$ be its dual modal s
 >A modal space $\mathfrak{X}$ refutes a stable canonical rule $\mu(\mathfrak{M}, D)$ iff there is a stable surjection $f:\mathfrak{X}\to \mathfrak{M}_*$ satisfying the BDC for $\mathfrak{D}:=\{\beta (a):a\in D\}$.
 
 
-
-
+This justifies writing a stable canonical rule $\mu(\mathfrak{M}, D)$ as $\mu(\mathfrak{M}_{*}, \mathfrak{D})$, with $\mathfrak{D}$ constructed from $D$ as above. 
 
 
 
