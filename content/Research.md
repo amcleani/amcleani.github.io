@@ -4,8 +4,6 @@ title: Research
 
 Here is a list of papers I've published or that I'm working on.
 
-If you want to know more about a paper but don't feel like reading it, click on the highlighted keywords! (This functionality is a work in progress, so not all of the links work yet.)
-
 # Publications
 
 >[!published] Blok-Esakia Theorems via Stable Canonical Rules (with Nick Bezhanishvili)
