@@ -71,7 +71,12 @@ const config: QuartzConfig = {
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
-      Plugin.Latex({ renderEngine: "mathjax", customMacros: {"\\R": "\\mathbb{R}"} }),
+      Plugin.Latex({ 
+        renderEngine: "katex", 
+        customMacros: {
+          "\\at": "\\mathsf{At}"
+        } 
+      }),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
