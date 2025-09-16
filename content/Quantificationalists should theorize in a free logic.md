@@ -43,11 +43,6 @@ I take  ([[#^5c5fe3|1]]) to be intuitive, especially if we take the domain speci
 
 Likewise, ([[#^35fc60|2]]) is derivable from $Fb$ given the assumption that both $F$ and $b$ are stable. While one may object about the stability assumptions in the specific example given, so long as one admits a non-trivial stable property $G$ that fails to apply to at least one stable individual $a$, a counter-example to the $\at(G)$-necessitation of (UI) can be constructed. 
 
-## Necessitation
-
-
-
-
 
 
 
