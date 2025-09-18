@@ -14,14 +14,14 @@
     --color: rgb(255, 255, 0);
     --border: rgba(255, 255 , 0, 0.2);
     --bg: rgba(255, 255, 0, 0.05);
-    --callout-icon: var(--callout-icon-question);
+    --callout-icon: var(--callout-icon-email);
   }
 
   &[data-callout="notshareable"] {
     --color: rgb(255, 0, 255);
     --border: rgba(255, 0, 255, 0.2);
     --bg: rgba(255, 0, 255, 0.05);
-    --callout-icon: var(--callout-icon-failure);
+    --callout-icon: var(--callout-icon-dots);
   }
 
   &[data-callout="thesis"] {
