@@ -1,7 +1,13 @@
 ---
-title: Quantificationalists should theorize in a free logic
+aliases: []
+created: 2025-09-12
+tags:
+  - argument
+  - higher_order_logic
+projects: "[[logics of quantificationalism]]"
+status:
+public: true
 ---
-
 
 # Argument
 
