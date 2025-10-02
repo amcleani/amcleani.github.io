@@ -14,7 +14,7 @@ title: Teaching
 
 >[!Abstract] CORE 195: Philosophy of Economic Markets, Money and Property
 >
->USC Pre-college, Summer 2024. Co-taught with [Yasha Sapir](https://www.yashasapir.com/) and [Matt Wiseman](https://dornsife.usc.edu/phil/profile/matthew-wiseman/). 
+>USC Pre-college, Summer 2024. Co-taught with [Yasha Sapir](https://www.yashasapir.com/) and [Matt Wiseman](https://dornsife.usc.edu/phil/profile/matthew-wiseman/). [[summer24_syllabus.pdf|Syllabus]]
 >
 > An introductory course for high-school students covering social construction, the metaphysics of money, the nature of property, socialism, and the ethics of capitalism. 
 
