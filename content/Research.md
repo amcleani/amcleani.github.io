@@ -43,6 +43,5 @@ title: Research
 >
 >I argue that higher-order free logicians in fact can articulate an inferentialist strategy if they are willing to embrace [[Quantificationalism]]. Quantificationalists have independent reasons to regard the correct inferential role of free quantifiers as richer than it is normally taken to be. This richer inferential role turns out to be strong enough to [[Harris's theorem for Quantificationalist free quantifiers|single out the meaning of free quantifiers uniquely]].
 
->[!notshareable] Filtration for Logics of Provability (with Nick Bezhanishvili)
->
->
+>[!shareable] Filtration for Logics of Provability (with Nick Bezhanishvili)
+>We introduce [[pre-filtration|pre-filtrations]] and [[pre-stable canonical rule|pre-stable canonical rules]] for the Kuznetsov–Muravitsky system of intuitionistic modal logic and provide a new proof of the Kuznetsov–Muravitsky isomorphism, along with several preservation results. The proofs employ these rules and a duality between modal (Heyting) algebras and their corresponding order-topological spaces.
