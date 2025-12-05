@@ -11,7 +11,7 @@ title: Research
 
 
 >[!published] Blok-Esakia Theorems via Stable Canonical Rules (with Nick Bezhanishvili)
->*The Journal of Symbolic Logic*, forthcoming. [Published version](https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/blokesakia-theorems-via-stable-canonical-rules/FD90ED34B23AED202EDCCD3D084A5E4A?utm_campaign=shareaholic&utm_medium=copy_link&utm_source=bookmark).
+>*The Journal of Symbolic Logic*, 2025. [Published version](https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/blokesakia-theorems-via-stable-canonical-rules/FD90ED34B23AED202EDCCD3D084A5E4A?utm_campaign=shareaholic&utm_medium=copy_link&utm_source=bookmark).
 >
 >We present a new uniform method for studying [[Modal companion|modal companions]] of superintuitionistic rule systems and related notions, based on the machinery of [[Stable canonical rule|stable canonical rules]]. Since stable canonical rules can be developed for any rule system admitting [[Filtration|filtration]] (in a fairly weak sense), our method can be applied uniformly across a wide range of signatures. We illustrate this by  [[proof of the Blok-Esakia theorem via stable canonical rules|proving a version of the Blok-Esakia theorem]] for superintuitionistic rules systems, bi-superintuitionistic rule systems and modal superintuitionistic rule systems above [[KM]]. Furthermore, we prove a version of the [[Dummett-Lemmon conjecture]] for superintuitionistic and bi-superintuitionistic rule systems. 
 
