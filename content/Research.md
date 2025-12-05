@@ -43,7 +43,7 @@ title: Research
 >Quantificationalists can make sense of what it is for a non-linguistic entity like a property or a proposition to *quantify over* a domain, without assuming that reality has anything like quasi-syntactic structure. I introduce the notion of [[quantificational support]] for this purpose. As a corollary, Quantificaitonalists can make sense of a *worldly* or *metaphysical* notion of predicativity. Roughly, a proposition is [[metaphysical predicativity|metaphysically predicative]] when it quantifies (in the sense captured by quantificaitonal support) over a domain that includes that very proposition. This paper explores the logic of these notions.
 
 
->[!shareable] Quantificationalism and the Intelligibility of Primitive Higher-Order Quantification (email for draft)
+>[!shareable] A Harris Result for Quantificationalist Free Quantifiers (email for draft)
 >
 >Classical higher-order logicians sometimes argue for the intelligibility of higher-order quantification by using an *inferentialist strategy*: we understand classical higher-order quantifiers because their inferential role [[Harris's theorem for classical quantifiers|uniquely pins down their meaning up to logical equivalence]]. The received view is that an inferentialist strategy is not available to those who take the correct logic of higher-order quantifiers to be *free* rather than classical. In standard higher-order free logics, multiple non-equivalent terms satisfy the axioms of free higher-order quantification.
 >
