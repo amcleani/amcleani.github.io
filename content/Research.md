@@ -5,20 +5,20 @@ title: Research
 # Publications
 
 >[!published] Pre-Filtration, Pre-Stable Canonical Rules, and the Kuznetsov-Muravitsky Isomorphism (with Nick Bezhanishvili)
->For *The Legacy of A.V. Kuznetsov in Logic, Algebra and Foundations of Mathematics,* forthcoming. [[kuznetsov.pdf|Penultimate draft]]
+>For *The Legacy of A.V. Kuznetsov in Logic, Algebra and Foundations of Mathematics,* forthcoming. [[kuznetsov.pdf|Penultimate draft]].
 >
 >We introduce [[pre-filtration|pre-filtrations]] and [[pre-stable canonical rule|pre-stable canonical rules]] for the Kuznetsov–Muravitsky system of intuitionistic modal logic and provide a new proof of the Kuznetsov–Muravitsky isomorphism, along with several preservation results. The proofs employ these rules and a duality between modal (Heyting) algebras and their corresponding order-topological spaces.
 
 
 >[!published] Blok-Esakia Theorems via Stable Canonical Rules (with Nick Bezhanishvili)
->*The Journal of Symbolic Logic*, forthcoming. [Penultimate draft](https://doi.org/10.48550/arXiv.2206.08863)
+>*The Journal of Symbolic Logic*, forthcoming. [Published version](https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/blokesakia-theorems-via-stable-canonical-rules/FD90ED34B23AED202EDCCD3D084A5E4A?utm_campaign=shareaholic&utm_medium=copy_link&utm_source=bookmark).
 >
 >We present a new uniform method for studying [[Modal companion|modal companions]] of superintuitionistic rule systems and related notions, based on the machinery of [[Stable canonical rule|stable canonical rules]]. Since stable canonical rules can be developed for any rule system admitting [[Filtration|filtration]] (in a fairly weak sense), our method can be applied uniformly across a wide range of signatures. We illustrate this by  [[proof of the Blok-Esakia theorem via stable canonical rules|proving a version of the Blok-Esakia theorem]] for superintuitionistic rules systems, bi-superintuitionistic rule systems and modal superintuitionistic rule systems above [[KM]]. Furthermore, we prove a version of the [[Dummett-Lemmon conjecture]] for superintuitionistic and bi-superintuitionistic rule systems. 
 
 >[!published] Debunking Multiform Dimensionality: many, Romance tant-PL, & morpho-syntactic opacity (with Luis Miguel Toquero Perez)
 >
 >
->*Proceedings of SALT 32*, 2022. [Published version](https://ling.auf.net/lingbuzz/006727/current.pdf?_s=ixEESNA_qJcerqMU)
+>*Proceedings of SALT 32*, 2022. [Published version](https://ling.auf.net/lingbuzz/006727/current.pdf?_s=ixEESNA_qJcerqMU).
 >
 >The interpretation of 'much/many' has been argued to be regulated by [[Uniform Dimensionality]]: 'much' is underspecified but 'many' encodes cardinality. However, given some data where 'many' denotes 'volume', Snyder (2021) proposes the need for [[Multiform Dimensionality]]: both 'much' and 'many' are underspecifed. After reviewing the English data, and in light of novel cross-linguistic data, we argue that neither generalization is fully accurate. Instead, following Wellwood (2015, 2018), we argue for an alternative, [[Abstract Uniform Dimensionality]], which we propose to be universal: MUCH always measures cardinality when it scopes over semantically interpretable plural. We derive the universal by proposing that MUCH can occupy different positions in the NP, only one of which has semantic plural in its scope. Variation is thus not semantic, but morpho-syntactic.
 
