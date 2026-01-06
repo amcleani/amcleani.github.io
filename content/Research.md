@@ -32,7 +32,7 @@ title: Research
 >
 >[[Quantificationalism]] is the view that some true propositions are false *at* or *relative to* some domains of quantification, in much the same sense in which propositions can be true or false at times or possible worlds. This paper elucidates the content of Quantificationalism and argues for its philosophical fruitfulness, by outlining applications in metaphysics and the philosophy of logic.  
 
->[!shareable] The Logic of Quantificationalism, Part 1: Foundations (email for draft)
+>[!shareable] The Logic of Quantificationalism, Part 1: Foundations ([[quantificationalism_formal.pdf|Draft]])
 >
 >I formulate a higher-order logic in which [[Quantificationalism]] can be precisely formulated and shown to be consistent. This logic can be given a sound and complete semantics over [[Quantificational substitution structure|quantificational substitution structures]] (QSS). Essentially, a QSS is a substitution structure in the sense of Bacon (2019), where each metaphysical substitution is determined by a domain of quantification. Intuitively, the effect of applying a substitution of this sort to an entity is that of forcing all quantification "involved" in that entity to range over the domain that determines the relevant substitution.
 
