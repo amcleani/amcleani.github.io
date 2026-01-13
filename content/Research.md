@@ -30,13 +30,13 @@ title: Research
 
 >[!shareable] Quantificationalism 
 >
->In preparation. Email for draft
+>In preparation. Email for draft.
 >
 >[[Quantificationalism]] is the view that some true propositions are false *at* or *relative to* some domains of quantification, in much the same sense in which propositions can be true or false at times or possible worlds. This paper elucidates the content of Quantificationalism and argues for its philosophical fruitfulness, by outlining applications in metaphysics and the philosophy of logic.  
 
 >[!shareable] The Logic of Quantificationalism, Part 1: Foundations. 
 >
->Under review. [[quantificationalism_formal.pdf|Draft]]
+>Under review. [[quantificationalism_formal.pdf|Draft]].
 >
 >I formulate a higher-order logic in which [[Quantificationalism]] can be precisely formulated and shown to be consistent. This logic can be given a sound and complete semantics over [[Quantificational substitution structure|quantificational substitution structures]] (QSS). Essentially, a QSS is a substitution structure in the sense of Bacon (2019), where each metaphysical substitution is determined by a domain of quantification. Intuitively, the effect of applying a substitution of this sort to an entity is that of forcing all quantification "involved" in that entity to range over the domain that determines the relevant substitution.
 
@@ -44,14 +44,14 @@ title: Research
 
 >[!notshareable] The Logic of Quantificationalism, Part 2: Support and Predicativity
 >
->In preparation
+>In preparation.
 >
 >Quantificationalists can make sense of what it is for a non-linguistic entity like a property or a proposition to *quantify over* a domain, without assuming that reality has anything like quasi-syntactic structure. I introduce the notion of [[quantificational support]] for this purpose. As a corollary, Quantificaitonalists can make sense of a *worldly* or *metaphysical* notion of predicativity. Roughly, a proposition is [[metaphysical predicativity|metaphysically predicative]] when it quantifies (in the sense captured by quantificaitonal support) over a domain that includes that very proposition. This paper explores the logic of these notions.
 
 
 >[!shareable] A Harris Result for Quantificationalist Free Quantifiers 
 >
->In preparation. Email for draft
+>In preparation. Email for draft.
 >
 >Classical higher-order logicians sometimes argue for the intelligibility of higher-order quantification by using an *inferentialist strategy*: we understand classical higher-order quantifiers because their inferential role [[Harris's theorem for classical quantifiers|uniquely pins down their meaning up to logical equivalence]]. The received view is that an inferentialist strategy is not available to those who take the correct logic of higher-order quantifiers to be *free* rather than classical. In standard higher-order free logics, multiple non-equivalent terms satisfy the axioms of free higher-order quantification.
 >
