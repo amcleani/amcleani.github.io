@@ -52,4 +52,4 @@ Likewise, ([[#^35fc60|2]]) is derivable from $Fb$ given the assumption that both
 
 
 
-[^1]: Specifically, we use the $\at(F)$-necessitation of the [[FH]] axiom FrUI and the rule (At-UG) from [[AtQ]].
+[^1]: Specifically, we use the $\at(F)$-necessitation of the [[FH]] axiom FrUI and the rule (At-UG) from [[Q]].
