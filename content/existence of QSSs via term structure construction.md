@@ -59,7 +59,7 @@ see that $\sim$ is an applicative congruence of our term applicative
 structure $(\mathcal{L}_0, \app)$. We then let $\obj{A}:=(A, \app)$ be
 the quotient of $\obj{\mathcal{L}_0}$ through $\sim$.
 
-To obtain a substitution structure, we can lift the mappings
+To obtain a [[substitution structure]], we can lift the mappings
 $\alpha^\sigma_{\trmseq{F}}$ to equivalence classes of terms. Write
 $[M]$ for the equivalence class of $M$ under $\sim$. A domain over
 $\obj{A}$ is then the result of lifting a domain over $\mathcal{L}_0$ to
