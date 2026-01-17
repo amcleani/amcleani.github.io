@@ -39,6 +39,55 @@
   }
 }
 
+  &[data-callout="proposition"] {
+    --color: rgb(0, 255, 255);
+    --border: rgba(0, 255, 255, 0.2);
+    --bg: rgba(0, 255, 255, 0.05);
+    --callout-icon: var(--callout-icon-tip);
+  }
+
+    &[data-callout="theorem"] {
+    --color: rgb(0, 255, 255);
+    --border: rgba(0, 255, 255, 0.2);
+    --bg: rgba(0, 255, 255, 0.05);
+    --callout-icon: var(--callout-icon-tip);
+  }
+
+  &[data-callout="lemma"] {
+    --color: rgb(0, 255, 255);
+    --border: rgba(0, 255, 255, 0.2);
+    --bg: rgba(0, 255, 255, 0.05);
+    --callout-icon: var(--callout-icon-tip);
+  }
+
+    &[data-callout="corollary"] {
+    --color: rgb(0, 255, 255);
+    --border: rgba(0, 255, 255, 0.2);
+    --bg: rgba(0, 255, 255, 0.05);
+    --callout-icon: var(--callout-icon-tip);
+  }
+
+    &[data-callout="definition"] {
+    --color: rgb(255, 0, 255);
+    --border: rgba(255, 0, 255, 0.2);
+    --bg: rgba(255, 0, 255, 0.05);
+    --callout-icon: var(--callout-icon-abstract);
+  }
+
+    &[data-callout="convention"] {
+    --color: rgb(255, 0, 255);
+    --border: rgba(255, 0, 255, 0.2);
+    --bg: rgba(255, 0, 255, 0.05);
+    --callout-icon: var(--callout-icon-warning);
+  }
+
+    &[data-callout="proof"] {
+    --color: rgb(255, 255, 0);
+    --border: rgba(255, 255 , 0, 0.2);
+    --bg: rgba(255, 255, 0, 0.05);
+    --callout-icon: var(--callout-icon-success);
+  }
+
 
 .katex { 
   font-size: 1em !important; 
