@@ -141,7 +141,7 @@ In other words, $\propseq{f}\sim \propseq{g}$ holds when the
 "representatives" of $\propseq{f}$ and $\propseq{g}$ among
 $\bar\sigma+\bar\tau$-domains have $\sim$-equivalent projections.
 
->[!Definition]
+>[!Definition] Definition (Quantificational congruence)
 >A *quantificational congruence* on a QSS $\struc{A}$ is a typed family
 >$\sim$ of equivalence relations on $\struc{A}$, such that
 >$\propseq{f}\sim \propseq{g}$ implies
@@ -152,7 +152,7 @@ By putting together this notion with those of an applicative congruence
 and of a substitutional congruence, we reach the general notion of a
 *congruence*.
 
->[!Definition]
+>[!Definition] Definition (Congruence)
 >A *congruence* on a QSS $\struc{A}$ is a quantificational congruence on
 >$\struc{A}$ that is also a substitutional congruence for the underlying
 >substitution structure and an applicative congruence for the underlying
@@ -168,7 +168,7 @@ $\sub{f}\sim \sub{g}$ to mean that $\sub{f}\obj{a}\sim \sub{g}\obj{a}$
 holds for every $\obj{a}\in A^\sigma$ and write $[\sub{f}]$ for the
 equivalence class of $\sub{f}$ under this lifting of $\sim$.
 
->[!Definition]
+>[!Definition] Definition (Quotient)
 >Let $\struc{A}$ be a QSS and $\sim$ a congruence on $\struc{A}$. When
 >$\propseq{f}$ is a $\bar\sigma$-domain, write $[\propseq{f}]$ for the
 >partial function with $[\propseq{f}](\sigma):=[\obj{f}_\sigma]$ when
