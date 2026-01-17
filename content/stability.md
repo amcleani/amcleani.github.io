@@ -32,7 +32,9 @@ Grounding theorists also seem to be committed to something like this idea, at le
 # Relationship with domain specifiers
 
 Non-stable entities can be "moved" [[Quantificationalism#Regimentation|domain specifiers]]. Loving someone is not the same as loving someone among those who love someone: if you love someone who doesn't love anyone, then you love someone, but you don't love someone among those who love someone. 
-$$\at(\text{loves someone})(\text{loves someone})\neq \text{loves someone}.$$
+$$
+\at(\text{loves someone})(\text{loves someone})\neq \text{loves someone}.
+$$
 On the other hand, stable entities should be "fixed" by all domain specifiers. 
 
 # Model-theoretic representation

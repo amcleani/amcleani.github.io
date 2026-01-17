@@ -14,13 +14,17 @@ public: true
 *Quantificational substitution structures* are the key structures in my model theory for [[Quantificationalism]]. They model a metaphysical notion of domain specification by "de-syntactifying" an operation of domain specification defined on linguistic entities. 
 
 Work in a standard higher-order language equipped with existence predicates $\ex_\sigma:\sigma \to t$. Assume that the primitive quantifiers $\forall_\sigma$ obey classical logic. Then the restricted quantifiers
-$$\forall_\sigma!:=\lambda X.\forall y^\sigma (\ex y\to Xy)$$
+$$
+\forall_\sigma!:=\lambda X.\forall y^\sigma (\ex y\to Xy)
+$$
 are free quantifiers. 
 
  For each predicate $F:\sigma\to t$, we can define a translation mapping $\alpha_F$ over $\ortholanguage$, where $\alpha_F(M)$ is obtained by replacing every occurrence of the existence predicate $\ex_\sigma$ with $F$. These translations can be thought of as specifying the domain of the free quantifiers $\forall_\sigma!$. 
 
 Thus, for example, if $G:\sigma\to t$ is a constant, we have:
-$$\alpha_F(\forall_\sigma! G):=\forall x(Fx\to Gx)\qquad\qquad \alpha_F(\exists_\sigma! G):=\forall x(Fx\land Gx)$$
+$$
+\alpha_F(\forall_\sigma! G):=\forall x(Fx\to Gx)\qquad\qquad \alpha_F(\exists_\sigma! G):=\forall x(Fx\land Gx)
+$$
 
 A *quantificational substitution structure* is a [[substitution structure]] where the substitutions---*quantificational substitutions*---are modelled after the syntactic mappings $\alpha_F$ as just defined. 
 
@@ -76,14 +80,17 @@ A *quantificational substitution structure* is defined as a substitution structu
 
 
 
-The existence assumption about identity unit domains is motivated by the intended use of identity domains as domains consisting entirely of interpretations of existence predicates. In fact, the existence of all identity unit domains guarantees that an identity $\bar\sigma$-domain exists for every nice type sequence $\bar\sigma$. Indeed, when $\bar\sigma=(\sigma_1, \ldots, \sigma_n)$, an identity $\bar\sigma$-domain $\propseq{e}$ can be defined as $$\propseq{e}:=\obj{e}_{\sigma_1}\bullet\obj{e}_{\sigma_2}\bullet\cdots\bullet \obj{e}_{\sigma_n}.$$ 
+The existence assumption about identity unit domains is motivated by the intended use of identity domains as domains consisting entirely of interpretations of existence predicates. In fact, the existence of all identity unit domains guarantees that an identity $\bar\sigma$-domain exists for every nice type sequence $\bar\sigma$. Indeed, when $\bar\sigma=(\sigma_1, \ldots, \sigma_n)$, an identity $\bar\sigma$-domain $\propseq{e}$ can be defined as $$
+\propseq{e}:=\obj{e}_{\sigma_1}\bullet\obj{e}_{\sigma_2}\bullet\cdots\bullet \obj{e}_{\sigma_n}.
+$$ 
 
 
 [[#^def-qss|Composition]] says that domain composition commutes with the substitution assignment function. Since $i_{(\cdot)}$ is surjective, for any two domains $\propseq{f}, \propseq{g}$ there must be a unique domain $\propseq{h}$ such that $\sub{h}=\sub{f}\circ\sub{g}$.  This is identified with  $\propseq{f}\bullet \propseq{g}$.
 
 
 [[#^def-qss|Identity]] is a bit more complicated.  We could obtain an equivalent definition if we replaced it with the claim that both the following identities hold for any $\bar\sigma$-domain $\propseq{f}$:
-$$\begin{align} 
+$$
+\begin{align} 
 \sub{f}\obj{e_\sigma}&=\obj{f}_\sigma &\text{whenever $\sigma\in \bar\sigma$}\tag{Generality}\\ 
 \sub{f}\obj{e_\tau}&=\obj{e}_\tau &\text{whenever $\tau\notin \bar\sigma$}\tag{Modularity} \end{align}
 $$ 
@@ -109,7 +116,9 @@ behaved" with respect to the mapping $\subfree{(\cdot)}$.
 When $\bar\sigma$ and $\bar\tau$ are nice type sequences such that every type that occurs in $\bar\sigma$ occurs in $\bar\tau$, there is a mapping from
 $\mathit{pad}^{\bar{\tau}}_{\bar{\sigma}}:\mathit{Dom}_{\bar\sigma}\to \mathit{Dom}_{\bar\tau}$
 given by
-$$\mathit{pad}^{\bar{\tau}}_{\bar{\sigma}}(\propseq{f}) = \propseq{e}\bullet\propseq{f}\qquad\text{$\propseq{e}$ an identity $\bar\tau$-domain.}\tag{Padding}$$
+$$
+\mathit{pad}^{\bar{\tau}}_{\bar{\sigma}}(\propseq{f}) = \propseq{e}\bullet\propseq{f}\qquad\text{$\propseq{e}$ an identity $\bar\tau$-domain.}\tag{Padding}
+$$
 We should think of $\propseq{e}\bullet\propseq{f}$ as the
 "representative" of $\propseq{f}$ among $\bar\tau$-domains. For note
 that $\sub{f}\obj{a}=\subfree{\propseq{e}\bullet\propseq{f}}\obj{a}$
@@ -120,7 +129,9 @@ Let $\sim$ be a typed family of equivalence relations on an
 applicative structure $\obj{A}$ and let $\propseq{f}, \propseq{g}$ be
 respectively a $\bar\sigma$- and a $\bar\tau$-domain on $\obj{A}$. 
 Write $\propseq{f}\sim \propseq{g}$ to mean that
-$$(\mathit{pad}^{{\bar\sigma+\bar\tau}}_{{\bar\sigma}}(\propseq{f}))(\rho)\sim (\mathit{pad}^{{\bar\sigma+\bar\tau}}_{{\bar\tau}}(\propseq{g}))(\rho)\text{ for all $\rho\in \bar\sigma+\bar\tau$}.$$
+$$
+(\mathit{pad}^{{\bar\sigma+\bar\tau}}_{{\bar\sigma}}(\propseq{f}))(\rho)\sim (\mathit{pad}^{{\bar\sigma+\bar\tau}}_{{\bar\tau}}(\propseq{g}))(\rho)\text{ for all $\rho\in \bar\sigma+\bar\tau$}.
+$$
 In other words, $\propseq{f}\sim \propseq{g}$ holds when the
 "representatives" of $\propseq{f}$ and $\propseq{g}$ among
 $\bar\sigma+\bar\tau$-domains have $\sim$-equivalent projections.
