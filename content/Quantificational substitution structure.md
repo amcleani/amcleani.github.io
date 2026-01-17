@@ -84,7 +84,8 @@ A *quantificational substitution structure* is defined as a substitution structu
 
 
 
-The existence assumption about identity unit domains is motivated by the intended use of identity domains as domains consisting entirely of interpretations of existence predicates. In fact, the existence of all identity unit domains guarantees that an identity $\bar\sigma$-domain exists for every nice type sequence $\bar\sigma$. Indeed, when $\bar\sigma=(\sigma_1, \ldots, \sigma_n)$, an identity $\bar\sigma$-domain $\propseq{e}$ can be defined as $$
+The existence assumption about identity unit domains is motivated by the intended use of identity domains as domains consisting entirely of interpretations of existence predicates. In fact, the existence of all identity unit domains guarantees that an identity $\bar\sigma$-domain exists for every nice type sequence $\bar\sigma$. Indeed, when $\bar\sigma=(\sigma_1, \ldots, \sigma_n)$, an identity $\bar\sigma$-domain $\propseq{e}$ can be defined as 
+$$
 \propseq{e}:=\obj{e}_{\sigma_1}\bullet\obj{e}_{\sigma_2}\bullet\cdots\bullet \obj{e}_{\sigma_n}.
 $$ 
 
