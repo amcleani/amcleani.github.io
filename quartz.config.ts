@@ -74,7 +74,8 @@ const config: QuartzConfig = {
       Plugin.Latex({ 
         renderEngine: "katex", 
         customMacros: {
-          "\\at": "\\mathsf{At}"
+          "\\at": "\\mathsf{At}",
+          "\\struc": "\\mathfrak{#1}",
         } 
       }),
     ],
