@@ -45,9 +45,11 @@ export const defaultContentPageLayout: PageLayout = {
         scale: 1.1,
         fontSize: 0.6,
         opacityScale: 1.5,
+        showTags: false,
       },
       globalGraph: {
         opacityScale: 1,
+        showTags: false,
       },
     }),
     Component.DesktopOnly(Component.TableOfContents()),
