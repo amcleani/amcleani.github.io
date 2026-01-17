@@ -64,16 +64,20 @@ Some domains are *current*, in the sense that for each type $\sigma$ on which th
 I write $\obj{e}_\sigma$ for an arbitrary element of $\obj{A}^{\sigma\to t}$, if there is one, such that $\subfree{\obj{e}_\sigma}=1$.  In [[models based on QSSs|models for Quantificationalism]], each existence predicate $\ex_\sigma$ expresses $\obj{e}_\sigma$. Thus we may think of identity domains as consisting entirely of interpretations of existence predicates. The identity substitution can be thought of as a quantificational substitution that specifies *the existing things* as the new domain of quantification within its argument. 
 
 
-Through substitution assignment functions, we can also define an operation of *domain composition*. Given two nice type sequences $\bar\sigma$ and $\bar\tau$, let $\bar\sigma+\bar\tau$ be an arbitrary nice type sequence such that the types occurring in it are exactly the types that occur in either $\bar\sigma$ or $\bar\tau$. If $\propseq{f}, \propseq{g}$ are respectively a $\bar\sigma$- and a $\bar\tau$-domain, the *composition* $\propseq{f}\bullet\propseq{g}$ is a $\bar\sigma+\bar\tau$-domain defined by putting $$
-(\propseq{f}\bullet\propseq{g})(\sigma):= \begin{cases} \sub{f}\obj{g}_\sigma & \text{if $\sigma\in \bar\tau$}\\ \obj{f}_\sigma & \text{if $\sigma\in \bar\sigma$ but $\sigma\notin\bar\tau$}\\ \text{undefined} & \text{otherwise.} \end{cases}$$ 
+Through substitution assignment functions, we can also define an operation of *domain composition*. Given two nice type sequences $\bar\sigma$ and $\bar\tau$, let $\bar\sigma+\bar\tau$ be an arbitrary nice type sequence such that the types occurring in it are exactly the types that occur in either $\bar\sigma$ or $\bar\tau$. If $\propseq{f}, \propseq{g}$ are respectively a $\bar\sigma$- and a $\bar\tau$-domain, the *composition* $\propseq{f}\bullet\propseq{g}$ is a $\bar\sigma+\bar\tau$-domain defined by putting 
+$$
+(\propseq{f}\bullet\propseq{g})(\sigma):= \begin{cases} \sub{f}\obj{g}_\sigma & \text{if $\sigma\in \bar\tau$}\\ \obj{f}_\sigma & \text{if $\sigma\in \bar\sigma$ but $\sigma\notin\bar\tau$}\\ \text{undefined} & \text{otherwise.} \end{cases}
+$$ 
 Intuitively, the domain $\propseq{f}\bullet\propseq{g}$ is the domain $\propseq{g}$ seen from the "perspective" of the domain $\propseq{f}$. We can think of domains as characterizing not only what exists, but also what exists according to other domains---including themselves. So, what it is for an entity of the same type to exist according to $\propseq{f}\bullet\propseq{g}$ is the same as what it is for it to *exist according to $\propseq{g}$, according to $\propseq{f}$*. For example, the domain of *lovers* specifies the lovers as what exists, and also specifies the *lovers among lovers* as what exists *according to the domain of lovers*. As both the name and the gloss just given suggest, we will use domain composition to characterize the composition of quantificational substitutions. 
 
 
 A *quantificational substitution structure* is defined as a substitution structure equipped with a substitution assignment function that is "well behaved" with respect to domain composition. 
 >[!Definition] Definition (Quantificational substitution structure)
 >A *quantificational substitution structure*, henceforth a *QSS*, is a tuple $\struc{A}=(\obj{I}, \obj{A}, \mathit{Sub}, i_{(\cdot)})$, where $(\obj{I}, \obj{A}, \mathit{Sub})$ is a substitution structure, $\mathit{i}_\cdot:\mathit{Dom}\to I$ is a substitution assignment function, such that an identity unit $\sigma$-domain $\obj{e}_\sigma$ exists for every type $\sigma$, and the conditions 
->$$\begin{gather} \sub{f}\circ\sub{g}=\subfree{\propseq{f}\bullet \propseq{g}}  \tag{Composition} \\ 
->\propseq{e}\bullet \propseq{f}=\propseq{f}\bullet \propseq{e} \tag{Identity} \end{gather}$$ 
+>$$
+>\begin{gather} \sub{f}\circ\sub{g}=\subfree{\propseq{f}\bullet \propseq{g}}  \tag{Composition} \\ 
+>\propseq{e}\bullet \propseq{f}=\propseq{f}\bullet \propseq{e} \tag{Identity} \end{gather}
+>$$ 
 >hold for all domains $\propseq{f}, \propseq{g}$ and any identity domain $\propseq{e}$. 
 
 ^def-qss
