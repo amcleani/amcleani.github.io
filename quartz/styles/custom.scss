@@ -37,7 +37,7 @@
     --bg: rgba(0, 255, 255, 0.05);
     --callout-icon: var(--callout-icon-abstract);
   }
-}
+
 
   &[data-callout="proposition"] {
     --color: rgb(0, 255, 255);
@@ -87,7 +87,7 @@
     --bg: rgba(255, 255, 0, 0.05);
     --callout-icon: var(--callout-icon-success);
   }
-
+}
 
 .katex { 
   font-size: 1em !important; 
