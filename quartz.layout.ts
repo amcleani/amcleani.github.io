@@ -33,7 +33,7 @@ export const defaultContentPageLayout: PageLayout = {
       components: [
         {
           Component: Component.Search(),
-          grow: true,
+          grow: false,
         },        
       ],
     }),
@@ -43,6 +43,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Graph({
       localGraph: {
         scale: 1.1,
+        depth: 2,
         fontSize: 0.6,
         opacityScale: 1.5,
         showTags: false,
@@ -67,10 +68,8 @@ export const defaultListPageLayout: PageLayout = {
       components: [
         {
           Component: Component.Search(),
-          grow: true,
+          grow: false,
         },
-        { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
       ],
     }),
     Component.DesktopOnly(Component.links()),
