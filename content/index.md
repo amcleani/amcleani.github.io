@@ -14,10 +14,6 @@ I'm also active in mathematical logic. In recent work with [Nick Bezhanishvili](
 
 As you've probably noticed, this website is sprinkled with internal links to pages about concepts, theses, arguments and results related to my work.  I'm hoping these pages can be useful to people who want to know a little more about what I do without having to read whole papers. (This functionality is a work in progress, so some links may not work yet.)
 
-
-You can email me at: cleani[at]usc[dot]edu
-
-
   
   
   
