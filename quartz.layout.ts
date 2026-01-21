@@ -1,6 +1,6 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
-import Email from "./quartz/components/Email"
+
 
 
 // components shared across all pages
@@ -29,8 +29,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TagList(),
   ],
   left: [
-    Component.PageTitle(),
-    Email(),    
+    Component.PageTitle(),   
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
@@ -65,8 +64,7 @@ export const defaultContentPageLayout: PageLayout = {
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle()],
   left: [
-    Component.PageTitle(),
-    Email(),    
+    Component.PageTitle(),  
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
