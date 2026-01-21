@@ -18,11 +18,6 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
           <a href="mailto:cleani@usc.edu">cleani@usc.edu</a>
         </div>
 
-        <div class="line">
-          <a href="https://philpeople.org/profiles/antonio-maria-cleani">PhilPeople</a>
-          <span class="sep"> · </span>
-          <a href="https://dornsife.usc.edu/phil/profile/antonio-maria-cleani/">USC</a>
-        </div>
       </div>
     </div>
   )
