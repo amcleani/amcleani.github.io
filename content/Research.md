@@ -28,7 +28,7 @@ title: Research
 # Work in progress
 
 
->[!shareable] Quantificationalism 
+>[!notshareable] Quantificationalism 
 >
 >In preparation. Email for draft.
 >
