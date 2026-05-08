@@ -38,15 +38,15 @@ title: Research
 >
 >Under review. [[quantificationalism_formal.pdf|Draft]].
 >
->I formulate a higher-order logic in which [[Quantificationalism]] can be precisely formulated and shown to be consistent. This logic can be given a sound and complete semantics over [[Quantificational substitution structure|quantificational substitution structures]] (QSS). Essentially, a QSS is a substitution structure in the sense of Bacon (2019), where each metaphysical substitution is determined by a domain of quantification. Intuitively, the effect of applying a substitution of this sort to an entity is that of forcing all quantification "involved" in that entity to range over the domain that determines the relevant substitution.
+>I formulate a higher-order logic in which [[Quantificationalism]] can be precisely formulated and shown to be consistent. This logic can be given a sound and complete semantics over [[Quantificational substitution structure|quantificational substitution structures]] (QSS). Essentially, a QSS is a substitution structure in the sense of [[@Bacon2019SS]], where each metaphysical substitution is determined by a domain of quantification. Intuitively, the effect of applying a substitution of this sort to an entity is that of forcing all quantification "involved" in that entity to range over the domain that determines the relevant substitution.
 
-
-
->[!notshareable] The Logic of Quantificationalism, Part 2: Support and Predicativity
+>[!shareable] The algebra of Necessities
 >
->In preparation.
+>In preparation. Email for draft
 >
->Quantificationalists can make sense of what it is for a non-linguistic entity like a property or a proposition to *quantify over* a domain, without assuming that reality has anything like quasi-syntactic structure. I introduce the notion of [[quantificational support]] for this purpose. As a corollary, Quantificaitonalists can make sense of a *worldly* or *metaphysical* notion of predicativity. Roughly, a proposition is [[metaphysical predicativity|metaphysically predicative]] when it quantifies (in the sense captured by quantificaitonal support) over a domain that includes that very proposition. This paper explores the logic of these notions.
+>Recently, modal metaphysics has seen a shift from the study of specific notions of necessity (nomic, counterfactual, metaphysical, logical, ...) to the study [[necessity|necessities]] as a whole. Following [[@Bacon2018TBN]], the idea is to define a necessity as the worldly analog of an operator governed by a normal modal logic, then investigate the theory of necessities in purely logical terms. [[@BaconZeng2022AToN]] showed that if reality is coarse-grained enough, necessities in this sense form a [[Algebra of necessities|bounded lattice with respect to entailment]]. 
+>
+>This paper investigate the lattice of necessities in more detail. Solving an open problem from  [[@BaconZeng2022AToN]], I show that the lattice of necessities is in fact distributive. What is more, it admits the structure of a [[Heyting algebra]]. This allows us to define  [[pseudocomplements of necessities]]: the pseudocomplement of a necessity $M$ is the weakest necessity whose meet with $M$ is the broadest necessity. I investigate the conditions under which pseudocomplements of necessities obey classical principles, like the law of excluded middle and double-negation elimination. These laws turn out to characterize different senses of the philosophically significant idea of an *infinitely closed necessity.*
 
 
 >[!shareable] A Harris Result for Quantificationalist Free Quantifiers 
@@ -56,4 +56,14 @@ title: Research
 >Classical higher-order logicians sometimes argue for the intelligibility of higher-order quantification by using an *inferentialist strategy*: we understand classical higher-order quantifiers because their inferential role [[Harris's theorem for classical quantifiers|uniquely pins down their meaning up to logical equivalence]]. The received view is that an inferentialist strategy is not available to those who take the correct logic of higher-order quantifiers to be *free* rather than classical. In standard higher-order free logics, multiple non-equivalent terms satisfy the axioms of free higher-order quantification.
 >
 >I argue that higher-order free logicians in fact can articulate an inferentialist strategy if they are willing to embrace [[Quantificationalism]]. Quantificationalists have independent reasons to regard the correct inferential role of free quantifiers as richer than it is normally taken to be. This richer inferential role turns out to be strong enough to [[Harris's theorem for Quantificationalist free quantifiers|single out the meaning of free quantifiers uniquely]].
+
+
+>[!notshareable] The Logic of Quantificationalism, Part 2: Support and Predicativity
+>
+>In preparation.
+>
+>Quantificationalists can make sense of what it is for a non-linguistic entity like a property or a proposition to *quantify over* a domain, without assuming that reality has anything like quasi-syntactic structure. I introduce the notion of [[quantificational support]] for this purpose. As a corollary, Quantificaitonalists can make sense of a *worldly* or *metaphysical* notion of predicativity. Roughly, a proposition is [[metaphysical predicativity|metaphysically predicative]] when it quantifies (in the sense captured by quantificaitonal support) over a domain that includes that very proposition. This paper explores the logic of these notions.
+
+
+
 
