@@ -5,7 +5,7 @@ title: Research
 # Publications
 
 >[!published] Pre-Filtration, Pre-Stable Canonical Rules, and the Kuznetsov-Muravitsky Isomorphism (with Nick Bezhanishvili)
->For *The Legacy of A.V. Kuznetsov in Logic, Algebra and Foundations of Mathematics,* forthcoming. [[kuznetsov.pdf|Penultimate draft]].
+>For *The Legacy of A.V. Kuznetsov in Logic, Algebra and Foundations of Mathematics,* forthcoming. [[kuznetsov_galley.pdf|Penultimate draft]].
 >
 >We introduce [[pre-filtration|pre-filtrations]] and [[pre-stable canonical rule|pre-stable canonical rules]] for the Kuznetsov–Muravitsky system of intuitionistic modal logic and provide a new proof of the Kuznetsov–Muravitsky isomorphism, along with several preservation results. The proofs employ these rules and a duality between modal (Heyting) algebras and their corresponding order-topological spaces.
 
