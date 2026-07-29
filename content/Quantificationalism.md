@@ -7,48 +7,40 @@ tags:
   - philosophical_logic
 projects: 
 status:
-public: true
 ---
-# Statement
+# Idea
 
-Consider:
+*Quantificationalism* is the view that there are quantificationally variable propositions: propositions that have different truth values *at* or *relative to* different domains of quantification. Here is what I mean. Consider:
 
-1. Gavin Newsom is the governor of California. 
-2. Gavin Newsom was not the governor of California in 2018.
-3. Gavin Newsom would not have been the governor of California, had the 2021 recall election gone another way.
+1. No country has all five of Earth's climate zones  ^992753
+2. In 1783, no country had all five of Earth's climate zones.  ^18deb3
+3. With the exception of the United States, no country has all five of Earth's climate zones. ^bb8b75
 
-These sentences are all express truths. Here is a straightforward explanation of why. There are *temporary truths*: propositions that are true, but not always true. There are also *contingent truths*: propositions that are true, but not necessarily true. The proposition that Newsom is the governor of California is both a temporary and a contingent truth: it is true, but was not true in 2018, and would not have been true had the 2021 recall election gone another way.
+In fact, the United States has all five of Earth's climate zones. That makes [[#^992753|1]] false. However, the remaining sentences are all true. No other country enjoys this much climate diversity. Moreover dry climates in North America only occur west of the Mississippi River, which the 1783 Treaty of Paris identified as the western boundary of the United States. 
 
-Let [[Temporalism and Modalism|Temporalism]] the view that there are temporary truths and let [[Temporalism and Modalism|Modalism]] be the view that there are contingent truths. [[Quantificationalism]] is a view that is to quantification what [[Temporalism and Modalism|Temporalism]] and [[Temporalism and Modalism|Modalism]] are to time and modality respectively. It says that there are *quantificationally relative truths*: propositions that are true, but not true *at* or *relative to* all domains of quantification.
+It is natural to explain the truth  of [[#^18deb3|2]] by saying that [[#^992753|1]] expresses a *temporary falsehood*: a false proposition that used to or will be true, in particular was true in 1783. [[#^992753|1]]  and its embedded occurrence in [[#^18deb3|2]] express one and the same proposition. [[#^18deb3|2]] is constructed by applying a sentential operator, "in 1783," to [[#^992753|1]]. This operator is non-trivial: it can turn a falsehood into a truth. 
 
+There is an analogous explanation of the truth of [[#^bb8b75|3]]. The proposition expressed by [[#^18deb3|2]] is a *quantificationally variable falsehood*: a false proposition that is true *at* or *relative to* some domain of quantification, in particular the domain of things other than the United States. [[#^992753|1]]  and its embedded occurrence in [[#^bb8b75|3]] express one and the same proposition. [[#^bb8b75|3]]  is constructed by applying a sentential operator, "with the exception of the United States," to [[#^992753|1]]. This operator is non-trivial: it can turn a falsehood into a truth. 
 
-Let me elaborate further. Consider:
+*Quantificationalism* is the view that there are quantificationally relative falsehoods (and truths) in this sense. It is analogous to *Temporalism*, the view that there are temporary  falsehoods (and truths). Both theses are non-trivial. To see why, it suffices to note that the truth values of [[#^992753|1]], [[#^18deb3|2]], and [[#^bb8b75|3]] can in principle be explained without resorting to either temporary or quantificationally variable propositions. 
 
-4. Every G7 country guarantees universal healthcare.  ^45b89e
-5. With the exception of the United States, every G7 country guarantees universal healthcare.  ^303368
+To explain the truth value of [[#^992753|1]] and [[#^18deb3|2]], one can say that [[#^992753|1]] is false because it expresses the eternally false proposition *that no country has all five of Earth's climate zones in 2026*. On the other hand,  [[#^18deb3|2]] is true because it expresses the eternally true proposition *that no country had all five of Earth's climate zones in 1783.* Contrary to appearance, "1783" is not a sentential operator: perhaps it binds a variable ranging over times that occurs somewhere in [[#^992753|1]], a variable that takes the time of utterance as its value when it occurs free. 
 
-Now, [[Quantificationalism#^45b89e|4]] is false, because the United States is a G7 country that does not guarantee universal healthcare. However, it is the only exception, so [[Quantificationalism#^303368|5]] is true. The Quantificationalist explains this by saying that the proposition that every G7 country guarantees universal healthcare is a quantificationally relative falsehood: it is in fact false, but it is true relative to the restricted domain of G7 countries other than the United States.
+Likewise, to explain the truth values of  [[#^992753|1]] and [[#^bb8b75|3]], one can say that [[#^992753|1]] is false because it expresses the quantificationally invariable falsehoood  *that no country in $D$ has all five of Earth's climate zones*, where $D$ rigidly picks out the contextually salient domain of quantification and that domain contains the United States. On the other hand, [[#^bb8b75|3]] is true because it expresses the quantificationally invariably true proposition *that no country in the domain of countries other than the United States has all five of Earth's climate zones.* Contrary to appearance, "with the exception of the United States" is not a sentential operator: perhaps it binds a variable ranging over domains of quantification that occurs somewhere in [[#^992753|1]], a variable that takes the contextually salient domain of quantification  as its value when it occurs free.
+
 
 
 
 # Regimentation
 
-The statements of [[Temporalism and Modalism|Temporalism]] and [[Temporalism and Modalism|Modalism]] contain quantification over propositions. I do *not* intend this to be interpreted as first-order quantification over a special sort of abstract objects called propositions. Instead, I use it as [[Pronouncing higher-order quantification in English|a shorthand for higher-order quantification in sentence position]].
-
-Thus [[Temporalism and Modalism|Temporalism]] implies the thesis that tense operators are *non-trivial*. An operator is non-trivial if it changes the truth value of at least one of its arguments. Likewise, [[Temporalism and Modalism|Modalism]] implies the thesis that modal operators are non-trivial.
-
-In a higher-order language equipped with sentential operators $S$ and $\lozenge$ standing respectively for 'sometimes' and 'possibly,' [[Temporalism and Modalism|Temporalism]] and [[Temporalism and Modalism|Modalism]] can be expressed as follows. 
+I think Temporalism and Quantificationalism are best understood as higher-order generalizations. In a higher-order language equipped with a sentential operator $S$, Temporalism can be expressed as:
 
 >[!thesis] Temporalism
 >$\exists p (p\land S\neg p)$
 
->[!thesis] Modalism
->$\exists p (p\land \lozenge\neg p)$
-  
-See [[Temporalism and Modalism]] on these formulations and for comments on how they differ from other views falling under the same label in the literature. 
+Thus Temporalism asserts the *non-triviality* of tense operators: the operator $S$ can turn a truth into a falsehood. 
 
-
-I understand [[Quantificationalism]] to be analogous to [[Temporalism and Modalism|Temporalism]] and [[Temporalism and Modalism|Modalism]] as just stated.  That is, the quantificationalist posits a non-trivial sentential operator,  $\blacklozenge$, expressing the notion of *being true at, or relative to, some domain of quantification*.
+I understand Quantificationalism in analogous fashion.  That is, the Quantificationalist posits a non-trivial sentential operator,  $\blacklozenge$, expressing the notion of *being true at, or relative to, some domain of quantification*.
 
 >[!thesis] Quantificationalism
 >$\exists p (p\land \blacklozenge\neg p)$
@@ -61,9 +53,8 @@ Intendedly, the meaning of $\mathsf{At}(F)(M)$ is derived from the meaning of $M
 Let $\blacksquare$ be the dual of $\blacklozenge$. In [[AtQ|the correct logic for Quantificationalism]], $\blacksquare P$ is a master modality for all domain specifiers: $\blacksquare P$ is provable precisely when $\mathsf{At}(F)(P)$ is provable for all domain specifiers $\mathsf{At}(F)$.[^2]  Importantly, we allow domain specifiers of the form $\mathsf{At}(X)$ where $X$ is a variable: free variables are better than quantifiers at expressing generality in free logic, and [[Quantificationalists should theorize in a free logic]].
 
   
-[^1]: Officially, I allow any finite sequence of predicates of pairwise distinct types to occur in the first argument place of $\mathsf{At}$. This ensures domains of quantification at different types can be changed simultaneously. See [[languages for logics of quantificationalism]] for more details.
+[^1]: Officially, I allow any finite sequence of predicates of pairwise distinct types to occur in the first argument place of $\mathsf{At}$. This ensures domains of quantification at different types can be changed simultaneously. 
 
 [^2]: Officially: iff $\mathsf{At}(\bar F)(P)$ is provable for all domain specifiers, where $\bar F$ is any sequence of predicates of pairwise distinct types.
-
 
 
