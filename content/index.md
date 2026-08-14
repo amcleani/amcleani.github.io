@@ -4,7 +4,7 @@ title: Home
 
 # Bio
 
-<img src="profile.jpeg" style="float: left; margin-right: 20px;" width="250px" height="auto">
+<img src="profile.jpeg" style="float: left; margin-right: 20px;" width="200px" height="auto">
 
 I'm a philosophy Ph.D. candidate at the [University of Southern California](https://dornsife.usc.edu/phil/), where I am advised primarily by [Andrew Bacon](https://andrew-bacon.github.io/). I mainly work  on topics in philosophical logic and metaphysics. My broader philosophical interests include epistemology, ethics, PPE, early analytic philosophy, and the philosophy of mathematics.  
 
