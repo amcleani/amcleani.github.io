@@ -8,7 +8,7 @@ I have teaching experience in logic, ethics, epistemology, political philosophy 
 
 One of the main goals that guide my teaching is [[the value of mistakes and confusion|normalizing making mistakes and the experience of confusion]]. Recently, I've been experimenting with [[teaching philosophy using simulations]].
 
-In recognition of my dedication to teaching, I was awarded the [University Outstanding Teaching Assistant Award]([University Outstanding Teaching Assistant Award - USC Center for Excellence in Teaching](https://cet.usc.edu/awards-grants/university-outstanding-teaching-assistant-award/)) and the [Mentored Teaching Fellowship]([Mentored Teaching Fellows Program - USC Center for Excellence in Teaching](https://cet.usc.edu/mentored-fellows/)) by USC and the Center for Excellence in Teaching. 
+In recognition of my dedication to teaching, I was awarded the [University Outstanding Teaching Assistant Award](https://cet.usc.edu/awards-grants/university-outstanding-teaching-assistant-award/) and the [Mentored Teaching Fellowship](https://cet.usc.edu/mentored-fellows/) by USC and the Center for Excellence in Teaching. 
 
 # Primary instructor
 
