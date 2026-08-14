@@ -2,7 +2,13 @@
 title: Teaching
 ---
 
-  
+# Overview
+
+I have teaching experience in logic, ethics, epistemology, political philosophy and PPE at levels ranging from high school to upper undergraduate, both as a teaching assistant and as a primary instructor. 
+
+One of the main goals that guide my teaching is [[the value of mistakes and confusion|normalizing making mistakes and the experience of confusion]]. Recently, I've been experimenting with [[teaching philosophy using simulations]].
+
+In recognition of my dedication to teaching, I was awarded the [University Outstanding Teaching Assistant Award]([University Outstanding Teaching Assistant Award - USC Center for Excellence in Teaching](https://cet.usc.edu/awards-grants/university-outstanding-teaching-assistant-award/)) and the [Mentored Teaching Fellowship]([Mentored Teaching Fellows Program - USC Center for Excellence in Teaching](https://cet.usc.edu/mentored-fellows/)) by USC and the Center for Excellence in Teaching. 
 
 # Primary instructor
 
