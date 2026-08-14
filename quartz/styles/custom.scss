@@ -11,9 +11,9 @@
   }
 
     &[data-callout="shared"] {
-    --color: rgb(255, 255, 0);
-    --border: rgba(255, 255 , 0, 0.2);
-    --bg: rgba(255, 255, 0, 0.05);
+    --color: rgb(0, 255, 0);
+    --border: rgba(0, 255, 0, 0.2);
+    --bg: rgba(0, 255, 0, 0.05);
     --callout-icon: var(--callout-icon-file);
   }
 
