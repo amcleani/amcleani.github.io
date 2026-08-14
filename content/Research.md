@@ -70,4 +70,7 @@ In mathematical logic, I'm interested in topics at the intersection of logic, al
 
 
 >[!notshareable] Quantificationalist Modal Realism
+>
+>In preparation.
+>
 >I sketch a [[Quantificationalist Modal Realism|Quantificationalist version of Modal Realism]] and argue it offers a superior solution to the [[problem of advanced modalizing]] than extant approaches in the literature. In addition, Quantificationalist Modal Realism offers an that can be formulated as a higher-order generalization, as opposed to a schematic biconditional. This means the syntactic structure of a sentence is irrelevant for determining the semantic effect of a modal operator applied to it. All that matters is what the sentence *means*.
