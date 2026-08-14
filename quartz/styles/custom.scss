@@ -10,7 +10,7 @@
     --callout-icon: var(--callout-icon-success);
   }
 
-    &[data-callout="shared"] {
+  &[data-callout="shared"] {
     --color: rgb(0, 255, 0);
     --border: rgba(0, 255, 0, 0.2);
     --bg: rgba(0, 255, 0, 0.05);
