@@ -36,7 +36,7 @@ In mathematical logic, I'm interested in topics at the intersection of logic, al
 # Work in progress
 
 
->[!notshareable] Quantificationalism 
+>[!shareable] Quantificationalism 
 >
 >In preparation. Email for draft.
 >
