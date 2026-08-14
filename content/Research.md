@@ -38,7 +38,7 @@ In mathematical logic, I'm interested in topics at the intersection of logic, al
 
 >[!notshareable] Quantificationalism 
 >
->In preparation. Email for draft.
+>In preparation. [[algebraicnec.pdf|Draft]].
 >
 >[[Quantificationalism]] is the view that some true propositions are false *at* or *relative to* some domains of quantification, in much the same sense in which propositions can be true or false at times or possible worlds. This paper elucidates the content of Quantificationalism and argues for its philosophical fruitfulness, by outlining applications in metaphysics and the philosophy of logic.  
 
