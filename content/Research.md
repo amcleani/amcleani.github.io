@@ -38,19 +38,19 @@ In mathematical logic, I'm interested in topics at the intersection of logic, al
 
 >[!notshareable] Quantificationalism 
 >
->In preparation. [[algebraicnec.pdf|Draft]].
+>In preparation. Email for draft.
 >
 >[[Quantificationalism]] is the view that some true propositions are false *at* or *relative to* some domains of quantification, in much the same sense in which propositions can be true or false at times or possible worlds. This paper elucidates the content of Quantificationalism and argues for its philosophical fruitfulness, by outlining applications in metaphysics and the philosophy of logic.  
 
->[!shareable] The Logic of Quantificationalism: Foundations. 
+>[!shared] The Logic of Quantificationalism: Foundations. 
 >
 >Under review. [[quantificationalism_formal.pdf|Draft]].
 >
 >I formulate a higher-order logic in which [[Quantificationalism]] can be precisely formulated and shown to be consistent. This logic can be given a sound and complete semantics over [[Quantificational substitution structure|quantificational substitution structures]] (QSS). 
 
->[!shareable] An Algebraic Approach to Necessities
+>[!shared] An Algebraic Approach to Necessities
 >
->In preparation. Email for draft
+>In preparation. [[algebraicnec.pdf|Draft]].
 >
 >[[@Bacon2023APItHOL]] defines a [[necessity]] by internalizing the *proof theory* of normal modal logics. I introduce [[algebraic necessity|a concept of necessity]] that instead internalizes the *algebraic semantics* of normal modal logics. I show that the two concepts are equivalent. Then, I apply the algebraic perspective to show that, in Classicism, [[Algebra of necessities|necessities form a Heyting algebra with respect to entailment]], solving an open problem from [[@BaconZeng2022AToN]]. Pseudocomplements of necessities are intimately connected with the idea of an [[infinitely closed necessity]]
 
