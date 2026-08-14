@@ -21,13 +21,7 @@ For example, the property of *loving someone* is not stable. It is defined in te
 I think canonical examples of stable properties are Boolean operations (negation, conjunction, ...) and combinators (entities expressed by closed terms without occurrences of constants, like $\lambda x. x$).
 
 
-# Relationship with fundamentality
 
-I am intrigued by the idea that all fundamental relations are stable. 
-
-[[@Kaplan1995APiPWS]] sketches a view of this sort. On his view, the world can be completely described by specifying (i) which fundamental properties are instantiated where, and (ii) which things exist. The pattern of instantiation of fundamental properties is independent of which things exist, suggesting fundamental properties are stable. 
-
-Grounding theorists also seem to be committed to something like this idea, at least when it comes to fundamental propositions. Grounding theorists think that quantified propositions are grounded in their instances. Since no fundamental proposition is grounded by anything, fundamental propositions cannot be quantified. 
 
 # Relationship with domain specifiers
 
@@ -76,12 +70,16 @@ some stabilizing (resp. $\bar\sigma$-stabilizing) substitution.
 >assumptions about stable domains. Conversely, take any stabilizing
 >substitution $\sub{g}$. When $\propseq{g}$ is a $\bar\tau$-domain, we
 >know there is a stable $\bar\tau$-domain $\propseq{f}$ such that
->$\sub{f}\obj{a}=\obj{a}$. But this implies $$\begin{align*}
+>$\sub{f}\obj{a}=\obj{a}$. But this implies 
+>$$
+>\begin{align*}
 >    \sub{g}\obj{a}&=\sub{g}(\sub{f}\obj{a})
 >    =\subfree{\propseq g\circ\propseq f}(\obj a)
 >    =\sub{f}(\obj a)
 >    =\obj a.
->\end{align*}$$ So, $\obj{a}$ is stable in $\struc{A}$. The same argument
+>\end{align*}
+>$$ 
+>So, $\obj{a}$ is stable in $\struc{A}$. The same argument
 >works for $\bar\sigma$-stability. 
 
 ## Stabilization

@@ -33,7 +33,7 @@ $$
 $$ 
 ^35fc60
 
-Thus, assuming that domain specifiers commute with application and that Boolean operators are [[stability|stable]], we get
+Thus, assuming that domain specifiers commute with application and that Boolean operators are [[Stability|stable]], we get
 
 $$
 \tag{3} \at(F)(\forall x Fx\land \neg Fb),

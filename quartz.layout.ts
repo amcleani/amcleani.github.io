@@ -34,6 +34,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.links()),
   ],
   right: [
+    // Component.DesktopOnly(Component.TableOfContents()),
     Component.Graph({
       localGraph: {
         scale: 1.1,
@@ -47,7 +48,6 @@ export const defaultContentPageLayout: PageLayout = {
         showTags: false,
       },
     }),
-    Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
 }
