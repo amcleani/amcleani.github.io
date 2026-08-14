@@ -12,6 +12,18 @@ In recognition of my dedication to teaching, I was awarded the [University Outst
 
 # Primary instructor
 
+>[!Abstract] PHIL 360: Topics in Social Epistemology
+>
+>USC, Spring 2027. [[social_syllabus.pdf|Syllabus]]
+>
+>An advanced undergraduate course in social epistemology, focusing especially on formal social epistemology. 
+
+>[!Abstract] CORE 195: Philosophy of Economic Markets, Money and Property
+>
+>USC Pre-college, Summer 2026. [[PEMMP_2026.pdf|Syllabus]]
+>
+> An introductory course for high-school students covering elements of decision theory and game theory, and selected topics at the intersection of ethics, political philosophy and economics. Taught partly using [SIMSOC: Simulated Society](https://en.wikipedia.org/wiki/Simulated_Society).
+
 >[!Abstract] CORE 195: Philosophy of Economic Markets, Money and Property
 >
 >USC Pre-college, Summer 2025. [[PMMP_2025.pdf|Syllabus]]
