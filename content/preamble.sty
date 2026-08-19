@@ -1,0 +1,134 @@
+
+\RequirePackage{amssymb}
+
+%%General logic%%
+\newcommand{\rrbracket}{⟧}
+\newcommand{\llbracket}{⟦}
+\newcommand{\logic}[1]{\mathtt{#1}}
+
+
+%%modal and si logic%%
+
+\newcommand{\z}{Zakharyaschev}
+\newcommand{\pastlog}{\blacklozenge}
+\newcommand{\pastsquare}{\blacksquare}
+\newcommand{\sisquare}{\boxtimes}
+
+\newcommand{\alg}[1]{\mathfrak{#1}}
+\newcommand{\spa}[1]{\mathfrak{#1}}
+\newcommand{\class}[1]{\mathcal{#1}}
+\newcommand{\op}[1]{\mathsf{#1}}
+\newcommand{\lat}[1]{\mathbf{#1}}
+
+\newcommand{\dualspa}[1]{\alg{#1}_*}
+\newcommand{\dualalg}[1]{\spa{#1}^*}
+
+\newcommand{\dualkr}[1]{\alg{#1}_+}
+\newcommand{\dualcalg}[1]{\spa{#1}^+}
+
+\newcommand{\ops}[1]{\mathit{op}(#1)}
+\newcommand{\trans}{\#}
+
+\newcommand{\clop}[2][]{\op{Clop}_{#1}(\spa{#2})}
+\newcommand{\clopup}[2][]{\op{ClopUp}_{#1}(\spa{#2})}
+
+\newcommand{\upset}[2][]{{\Uparrow_{#1}} #2}
+\newcommand{\downset}[2][]{{\Downarrow_{#1}} #2}
+
+\newcommand{\scrmod}[2]{\mu(\alg{#1}, {#2})}
+\newcommand{\srmod}[1]{\mu\left(\alg{#1}\right)}
+\newcommand{\scr}[2]{{\xi}(\alg{#1}, {#2})}
+
+\newcommand{\scrsi}[2]{\eta(\alg{#1}, {#2})}
+\newcommand{\srsi}[1]{\eta\left(\alg{#1}\right)}
+
+
+%%higher-order logic%%
+\newcommand{\app}{\mathit{App}}
+\newcommand{\obj}[1]{\mathbf{#1}}
+\newcommand{\int}[2][g]{\|#2\|^{#1}}
+
+  
+%%at project%%
+\newcommand{\at}{\mathsf{At}}
+\newcommand{\stab}{\mathsf{Stab}}
+\newcommand{\supp}{\mathsf{Supp}}
+\newcommand{\struc}[1]{\mathfrak{#1}}
+\newcommand{\ex}{\mathsf{E!}}
+\newcommand{\samedom}{\mathsf{SameDom}}
+\newcommand{\model}[1]{(\struc{A}, \|\cdot\|, \models)}
+\newcommand{\emm}{\mathsf{EM}}
+\newcommand{\mer}{\mathsf{merge}}
+\newcommand{\rigid}{\mathsf{Rigid}^\at}
+
+\newcommand{\propseq}[1]{\obj{\bar{#1}}}
+\newcommand{\trmseq}[1]{{\bar{#1}}}
+\newcommand{\rank}{\mathit{Rank}}
+
+\newcommand{\sub}[1]{i_{\propseq{#1}}}
+\newcommand{\subfin}[1]{i_{\propseq{#1}}}
+\newcommand{\subone}[1]{i_{\obj{#1}}}
+
+\newcommand{\subtm}[1]{i_{[\trmseq{#1}]}}
+\newcommand{\subtmfin}[1]{i_{[\trmseq{#1}]}}
+
+\newcommand{\subint}[1]{i_{\int{\trmseq{#1}}}}
+\newcommand{\subintinf}[1]{i_{\int{\trmseq{#1}}}}
+
+\newcommand{\subfree}[1]{i_{#1}}
+
+  
+\newcommand{\sometimes}{S}
+
+\newcommand{\regular}{regular}
+\newcommand{\irregular}{irregular}
+\newcommand{\fulllanguage}{\mathcal{L}}
+\newcommand{\genlanguage}{\mathcal{L}_\dagger}
+\newcommand{\boxfree}{\mathcal{L}_\star}
+\newcommand{\ortholanguage}{\mathcal{L}_0}
+\newcommand{\thelanguage}{\mathcal{L}_\heartsuit}
+\newcommand{\typeass}[2]{{{#1}\mathrel{/}{#2}}}
+\newcommand{\fulllogic}[1]{\logic{#1}}
+\newcommand{\genlogic}[1]{\logic{#1}_\dagger}
+\newcommand{\boxfreelogic}[1]{\logic{#1}_\star}
+\newcommand{\orthologic}[1]{\logic{#1}_0}
+\newcommand{\thelogic}[1]{\logic{#1}_\heartsuit}
+
+\newcommand{\fullsequent}{\mathcal{S}}
+\newcommand{\gensequent}{\mathcal{S}_\dagger}
+\newcommand{\noboxsequent}{\mathcal{S}_\star}
+\newcommand{\orthosequent}{\mathcal{S}_0}
+\newcommand{\thesequent}{\mathcal{S}_\heartsuit}
+
+
+%% Quantifiers
+
+\newcommand{\range}{\mathsf{Range}}
+\newcommand{\quant}{\mathsf{Quant}}
+\newcommand{\clquant}{\mathsf{ClQuant}}
+
+
+% Category theory 
+
+\newcommand{\hom}{\text{Hom}}
+
+
+
+% Necessities - higher-order logic
+
+\newcommand{\ncomp}[1]{{-#1}}
+\newcommand{\nto}[2]{{#1\sqsupseteq #2}}
+\newcommand{\njoin}[2]{{#1\sqcup #2}}
+\newcommand{\nmeet}[2]{{#1\sqcap #2}}
+\renewcommand{\deg}{\mathsf{Deg}}
+\newcommand{\nneg}[1]{{-{#1}}}
+
+\newcommand{\bignjoin}[1]{{\bigsqcup {#1}}}
+\newcommand{\bignmeet}[1]{{\bigsqcap {#1}}}
+
+\newcommand{\broadest}{\square}
+\newcommand{\narrowest}{\mathsf{Deg}}
+\newcommand{\nec}[1]{\mathsf{Nec}{#1}}
+
+
+

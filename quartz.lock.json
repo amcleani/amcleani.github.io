@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "plugins": {
+    "research-links": {
+      "source": "./custom-plugins/research-links",
+      "resolved": "C:\\Users\\amcle\\Documents\\amcleani.github.io\\custom-plugins\\research-links",
+      "commit": "local",
+      "installedAt": "2026-08-18T03:21:21.907Z"
+    }
+  }
+}

@@ -1,0 +1,328 @@
+# yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
+configuration:
+  pageTitle: Antonio Maria Cleani
+  pageTitleSuffix: ""
+  enableSPA: true
+  enablePopovers: true
+  analytics:
+    provider: plausible
+  locale: en-US
+  baseUrl: amcleani.github.io
+  ignorePatterns:
+    - private
+    - templates
+    - .obsidian
+  theme:
+    fontOrigin: googleFonts
+    cdnCaching: true
+    typography:
+      header: Schibsted Grotesk
+      body: Source Sans Pro
+      code: IBM Plex Mono
+    colors:
+      lightMode: 
+          light: "rgba(22, 22, 24, 1)"
+          lightgray: "#393639"
+          gray: "#646464"
+          darkgray: "#d4d4d4"
+          dark: "#ebebec"
+          secondary: "rgba(0, 255, 255, 0.9)"
+          tertiary: "rgba(132, 165, 157, 1)"
+          highlight: "rgba(22, 22, 24, 0)"
+          textHighlight: "#b3aa0288"
+      darkMode: 
+          light: "rgba(22, 22, 24, 1)"
+          lightgray: "#393639"
+          gray: "#646464"
+          darkgray: "#d4d4d4"
+          dark: "#ebebec"
+          secondary: "rgba(0, 255, 255, 0.9)"
+          tertiary: "rgba(132, 165, 157, 1)"
+          highlight: "rgba(22, 22, 24, 0)"
+          textHighlight: "#b3aa0288"
+plugins:
+  - source: "@quartz-community/syntax-highlighting"
+    enabled: true
+    options:
+      theme:
+        light: github-light
+        dark: github-dark
+      keepBackground: false
+    order: 20
+  - source: "@quartz-community/obsidian-flavored-markdown"
+    enabled: true
+    options:
+      enableInHtmlEmbed: false
+      enableCheckbox: true
+    order: 30
+  - source: "@quartz-community/github-flavored-markdown"
+    enabled: true
+    order: 40
+  - source: "@quartz-community/table-of-contents"
+    enabled: true
+    order: 50
+    layout:
+      position: right
+      priority: 30
+  - source: "@quartz-community/crawl-links"
+    enabled: true
+    options:
+      markdownLinkResolution: shortest
+      disableBrokenWikilinks: true
+    order: 60
+  - source: "@quartz-community/description"
+    enabled: true
+    order: 70
+  - source: "@quartz-community/latex"
+    enabled: true
+    options:
+      renderEngine: katex
+      customMacros:
+        "\\sometimes": "S"
+        "\\fulllanguage": "\\mathcal{L}_+"
+        "\\genlanguage": "\\mathcal{L}_\\dagger"
+        "\\boxfree": "\\mathcal{L}_\\star"
+        "\\ortholanguage": "\\mathcal{L}_0"
+        "\\thelanguage": "\\mathcal{L}_\\heartsuit"
+        "\\fulllogic": "\\mathtt{#1}_+"
+        "\\genlogic": "\\mathtt{#1}_\\dagger"
+        "\\boxfreelogic": "\\mathtt{#1}_\\star"
+        "\\orthologic": "\\mathtt{#1}_0"
+        "\\thelogic": "\\mathtt{#1}_\\heartsuit"
+        "\\app": "\\mathit{App}"
+        "\\obj": "\\mathbf{#1}"
+        "\\struc": "\\mathfrak{#1}"
+        "\\class": "\\mathsf{#1}"
+        "\\logic": "\\mathtt{#1}"
+        "\\int": "\\llbracket #2 \\rrbracket^{#1}"
+        "\\propseq": "\\mathbf{\\bar{#1}}"
+        "\\trmseq": "\\bar{#1}"
+        "\\at": "\\mathsf{At}"
+        "\\stab": "\\mathsf{Stab}"
+        "\\supp": "\\mathsf{Supp}"
+        "\\ex": "\\mathsf{E!}"
+        "\\mergetm": "\\bar{#1} \\bullet \\bar{#2}"
+        "\\exmergetm": "\\bar{#1} \\star \\bar{#2}"
+        "\\mergedom": "\\mathbf{\\bar{#1}} \\bullet \\mathbf{\\bar{#2}}"
+        "\\exmergedom": "\\mathbf{\\bar{#1}} \\bullet \\mathbf{\\bar{#2}}"
+        "\\somedom": "\\blacklozenge"
+        "\\alldom": "\\blacksquare"
+        "\\sub": "i_{\\mathbf{\\bar{#1}}}"
+        "\\subfin": "i_{\\xi\\mathbf{\\bar{#1}}}"
+        "\\subone": "i_{\\mathbf{#1}}"
+        "\\subtm": "i_{[\\bar{#1}]}"
+        "\\subtmfin": "i_{\\xi[\\bar{#1}]}"
+        "\\subint": "i_{\\llbracket \\bar{#1} \\rrbracket^{g}}"
+        "\\subintinf": "i_{\\llbracket \\bar{#1} \\rrbracket^{g}}"
+        "\\subintone": "i_{\\xi\\llbracket #1 \\rrbracket^{g}}"
+        "\\subfree": "i_{#1}"
+        "\\wsupp": "\\mathsf{WSupp}"
+        "\\atcap": "\\mathsf{At}^{\\cap}"
+        "\\atcup": "\\mathsf{At}^{\\cup}"
+        "\\exwsupp": "\\mathsf{WSupp}_{\\exists}"
+        "\\uniwsupp": "\\mathsf{WSupp}_{\\forall}"
+        "\\exsupp": "\\mathsf{Supp}_{\\exists}"
+        "\\unisupp": "\\mathsf{Supp}_{\\forall}"
+    order: 80
+  - source: "@quartz-community/citations"
+    enabled: false
+    order: 85
+  - source: "@quartz-community/hard-line-breaks"
+    enabled: false
+    order: 90
+  - source: "@quartz-community/ox-hugo"
+    enabled: false
+    order: 91
+  - source: "@quartz-community/roam"
+    enabled: false
+    order: 92
+  - source: "@quartz-community/quartz-fonts"
+    enabled: true
+  - source: "@quartz-themes/core"
+    enabled: false
+    options:
+      theme: tokyo-night
+      mode: both
+  - source: "@quartz-community/remove-draft"
+    enabled: true
+  - source: "@quartz-community/explicit-publish"
+    enabled: false
+  - source: "@quartz-community/unlisted-pages"
+    enabled: true
+    options: {}
+    order: 45
+  - source: "@quartz-community/encrypted-pages"
+    enabled: true
+    options:
+      iterations: 600000
+      passwordField: password
+      unlistWhenEncrypted: false
+      outputPath: static/encryptedContentIndex.json
+  - source: "@quartz-community/stacked-pages"
+    enabled: false
+    layout:
+      position: afterBody
+      priority: 50
+      display: all
+  - source: "@quartz-community/alias-redirects"
+    enabled: true
+  - source: "@quartz-community/content-index"
+    enabled: true
+    options:
+      enableSiteMap: true
+      enableRSS: true
+  - source: "@quartz-community/favicon"
+    enabled: true
+  - source: "@quartz-community/og-image"
+    enabled: true
+  - source: "@quartz-community/cname"
+    enabled: true
+  - source: "@quartz-community/canvas-page"
+    enabled: true
+  - source: "@quartz-community/content-page"
+    enabled: true
+  - source: "@quartz-community/folder-page"
+    enabled: true
+  - source: "@quartz-community/tag-page"
+    enabled: true
+  - source: "@quartz-community/explorer"
+    enabled: false
+    layout:
+      position: left
+      priority: 50
+  - source: "@quartz-community/graph"
+    enabled: true
+    options:
+      localGraph:
+        depth: 2
+    layout:
+      position: right
+      priority: 10
+  - source: "@quartz-community/search"
+    enabled: false
+    layout:
+      position: left
+      priority: 20
+      group: toolbar
+      groupOptions:
+        grow: true
+  - source: "@quartz-community/backlinks"
+    enabled: true
+    layout:
+      position: right
+      priority: 50
+  - source: "@quartz-community/article-title"
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 10
+  - source: "@quartz-community/note-properties"
+    enabled: true
+    options:
+      includeAll: false
+      includedProperties:
+        - description
+        - tags
+        - aliases
+      excludedProperties: []
+      hidePropertiesView: true
+      delimiters: ---
+      language: yaml
+    order: 5
+    layout:
+      position: beforeBody
+      priority: 15
+      display: all
+  - source: "@quartz-community/tag-list"
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 30
+  - source: "@quartz-community/page-title"
+    enabled: true
+    layout:
+      position: left
+      priority: 10
+  - source: "@amcleani/research-links"
+    enabled: true
+    layout:
+      position: left
+      priority: 20
+      display: desktop-only
+  - source: "@amcleani/research-links"
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 5
+      display: mobile-only
+  - source: "@quartz-community/darkmode"
+    enabled: false
+    layout:
+      position: left
+      priority: 30
+      group: toolbar
+  - source: "@quartz-community/reader-mode"
+    enabled: false
+    layout:
+      position: left
+      priority: 35
+      group: toolbar
+  - source: "@quartz-community/breadcrumbs"
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 5
+      condition: not-index
+      display: desktop-only
+  - source: "@quartz-community/comments"
+    enabled: false
+    options:
+      provider: giscus
+      options: {}
+    layout:
+      position: afterBody
+      priority: 10
+  - source: "@quartz-community/footer"
+    enabled: true
+    layout:
+      position: footer
+      priority: 50
+  - source: "@quartz-community/recent-notes"
+    enabled: false
+  - source: "@quartz-community/spacer"
+    enabled: true
+    options: {}
+    order: 25
+    layout:
+      position: left
+      priority: 25
+      display: mobile-only
+  - source: "@quartz-community/bases-page"
+    enabled: true
+    options: {}
+    order: 50
+layout:
+  groups:
+    toolbar:
+      priority: 35
+      direction: row
+      gap: 0.5rem
+  byPageType:
+    "404":
+      positions:
+        beforeBody: []
+        left: []
+        right: []
+    content: {}
+    folder:
+      exclude:
+        - reader-mode
+      positions:
+        right: []
+    tag:
+      exclude:
+        - reader-mode
+      positions:
+        right: []
+    canvas: {}
+    bases: {}
