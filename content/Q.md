@@ -52,7 +52,7 @@ The *abstractable variables* of a term $M$ of type $\sigma$, $\mathsf{AV}_\sigma
 
 The language $\genlanguage(\Sigma)$ is then defined the same way as $\fulllanguage(\Sigma)$, except that the clause for $\lambda$-abstraction is replaced with 
 
-- $\lambda x. M\cdot \sigma\to \tau$ whenever $M\cdot \tau$ and ==$x\in \mathsf{AV}^\sigma(M)$==;
+- $\lambda x. M\cdot \sigma\to \tau$ whenever $M\cdot \tau$ and $x\in \mathsf{AV}^\sigma(M)$;
 
 Note $\genlanguage (\sigma)\subseteq \fulllanguage(\Sigma)$. When discussing $\genlogic Q$ I reserve the notation $M:\sigma$ to mean that $M$ is a $\genlanguage$-term of type $\sigma$. 
 

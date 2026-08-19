@@ -77,6 +77,9 @@ plugins:
     enabled: true
     options:
       renderEngine: katex
+      katexOptions:
+        leqno: true
+        fleqn: false
       customMacros:
         "\\sometimes": "S"
         "\\fulllanguage": "\\mathcal{L}_+"

@@ -4,7 +4,6 @@ created: 2024-07-29
 tags:
   - higher_order_logic
   - philosophical_logic
-  - concept
 projects: "[[logics of quantificationalism]]"
 status: active
 public: true

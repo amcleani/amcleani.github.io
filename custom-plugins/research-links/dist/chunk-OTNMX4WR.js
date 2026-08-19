@@ -11,7 +11,7 @@ var ResearchLinks = () => {
     ];
     return /* @__PURE__ */ jsxs("div", { class: "research-links", children: [
       /* @__PURE__ */ jsxs("address", { class: "research-contact", "aria-label": "Contact information", children: [
-        /* @__PURE__ */ jsx("span", { children: "Los Angeles" }),
+        /* @__PURE__ */ jsx("span", { children: "University of Southern California" }),
         /* @__PURE__ */ jsxs("span", { class: "research-contact__links", children: [
           /* @__PURE__ */ jsx("a", { href: "mailto:cleani@usc.edu", children: "cleani@usc.edu" }),
           /* @__PURE__ */ jsx("span", { "aria-hidden": "true", children: "\u2002\xB7\u2002" }),
@@ -65,4 +65,4 @@ export {
   ResearchLinks,
   src_default
 };
-//# sourceMappingURL=chunk-X3LSG52Z.js.map
+//# sourceMappingURL=chunk-OTNMX4WR.js.map

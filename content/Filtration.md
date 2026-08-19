@@ -1,7 +1,6 @@
 ---
 aliases: []
 tags:
-  - concept
   - modal_logic
 ---
 

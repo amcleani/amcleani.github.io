@@ -13,7 +13,7 @@ const ResearchLinks: QuartzComponentConstructor = () => {
     return (
       <div class="research-links">
         <address class="research-contact" aria-label="Contact information">
-          <span>Los Angeles</span>
+          <span>University of Southern California</span>
           <span class="research-contact__links">
             <a href="mailto:cleani@usc.edu">cleani@usc.edu</a>
             <span aria-hidden="true">&ensp;·&ensp;</span>

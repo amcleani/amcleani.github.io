@@ -2,7 +2,6 @@
 aliases: []
 created: 2026-01-16
 tags:
-  - concept
   - philosophical_logic
   - metaphysics
   - higher_order_logic
