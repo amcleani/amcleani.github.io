@@ -116,7 +116,6 @@ plugins:
         "\\subintinf": "i_{\\llbracket \\bar{#1} \\rrbracket^{g}}"
         "\\subintone": "i_{\\xi\\llbracket #1 \\rrbracket^{g}}"
         "\\subfree": "i_{#1}"
-        "\\wsupp": "\\mathsf{WSupp}"
         "\\atcap": "\\mathsf{At}^{\\cap}"
         "\\atcup": "\\mathsf{At}^{\\cup}"
         "\\exwsupp": "\\mathsf{WSupp}_{\\exists}"
