@@ -4,7 +4,7 @@ created: 2025-09-12
 tags:
   - argument
   - higher_order_logic
-projects: "[[Q]]"
+projects: "[[logics of quantificationalism]]"
 status:
 public: true
 ---
@@ -33,7 +33,7 @@ $$
 $$ 
 ^35fc60
 
-Thus, assuming that domain specifiers commute with application and that Boolean operators are [[Stability|stable]], we get
+Thus, assuming that domain specifiers commute with application and that Boolean operators are [[stability|stable]], we get
 
 $$
 \tag{3} \at(F)(\forall x Fx\land \neg Fb),
@@ -52,4 +52,4 @@ Likewise, ([[#^35fc60|2]]) is derivable from $Fb$ given the assumption that both
 
 
 
-[^1]: Specifically, we use the $\at(F)$-necessitation of the [[FH]] axiom FrUI and the rule (At-UG) from [[Q]].
+[^1]: Specifically, we use the $\at(F)$-necessitation of the [[FH]] axiom FrUI and the rule (At-UG) from [[AtQ]].

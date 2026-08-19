@@ -21,19 +21,23 @@ For example, the property of *loving someone* is not stable. It is defined in te
 I think canonical examples of stable properties are Boolean operations (negation, conjunction, ...) and combinators (entities expressed by closed terms without occurrences of constants, like $\lambda x. x$).
 
 
+# Relationship with fundamentality
 
+I am intrigued by the idea that all fundamental relations are stable. 
+
+[[@Kaplan1995APiPWS]] sketches a view of this sort. On his view, the world can be completely described by specifying (i) which fundamental properties are instantiated where, and (ii) which things exist. The pattern of instantiation of fundamental properties is independent of which things exist, suggesting fundamental properties are stable. 
+
+Grounding theorists also seem to be committed to something like this idea, at least when it comes to fundamental propositions. Grounding theorists think that quantified propositions are grounded in their instances. Since no fundamental proposition is grounded by anything, fundamental propositions cannot be quantified. 
 
 # Relationship with domain specifiers
 
-Non-stable entities can be "moved" [[Quantificationalism#Regimentation|domain specifiers]]. Loving someone is not the same as loving someone among those who love someone: if you love someone who doesn't love anyone, then you love someone, but you don't love someone among those who love someone. 
-$$
-\at(\text{loves someone})(\text{loves someone})\neq \text{loves someone}.
-$$
+Non-stable entities can be "moved" [[Quantificationalism#Regimentation|domain specifier]]s. Loving someone is not the same as loving someone among those who love someone: if you love someone who doesn't love anyone, then you love someone, but you don't love someone among those who love someone. 
+$$\at(\text{loves someone})(\text{loves someone})\neq \text{loves someone}.$$
 On the other hand, stable entities should be "fixed" by all domain specifiers. 
 
 # Model-theoretic representation
 
-There is a model-theoretic representation of the notion of stability definable in [[quantificational substitution structures]]. It is essentially the restriction of the
+There is a model-theoretic representation of the notion of stability definable in [[quantificational substitution structure]]s. It is essentially the restriction of the
 concept of *purity* from [[@Bacon2019SS]] to QSSs.
 
 >[!Definition]
@@ -45,7 +49,11 @@ concept of *purity* from [[@Bacon2019SS]] to QSSs.
 
 ## Stable domains
 
-A *stable domain* is any domain $\propseq{f}$ such that $\obj{f}_\sigma$ is stable whenever it is defined. A *stabilizing substitution* is any substitution $\sub{f}$ such that $\propseq{f}$ is a stable domain. Likewise, the notions of a *$\bar\sigma$-stable domain* and of a *$\bar\sigma$-stabilizing substitution* are defined.
+A *stable domain* is any domain $\propseq{f}$ such that $\obj{f}_\sigma$
+is stable whenever it is defined. A *stabilizing substitution* is any
+substitution $\sub{f}$ such that $\propseq{f}$ is a stable domain.
+Likewise, the notions of a *$\bar\sigma$-stable domain* and of a
+*$\bar\sigma$-stabilizing substitution* are defined.
 
 It turns out that given minimal assumptions about the existence of
 stable domains, stable (resp. $\bar\sigma$-stable) entities can be
@@ -66,16 +74,12 @@ some stabilizing (resp. $\bar\sigma$-stabilizing) substitution.
 >assumptions about stable domains. Conversely, take any stabilizing
 >substitution $\sub{g}$. When $\propseq{g}$ is a $\bar\tau$-domain, we
 >know there is a stable $\bar\tau$-domain $\propseq{f}$ such that
->$\sub{f}\obj{a}=\obj{a}$. But this implies 
->$$
->\begin{align*}
+>$\sub{f}\obj{a}=\obj{a}$. But this implies $$\begin{align*}
 >    \sub{g}\obj{a}&=\sub{g}(\sub{f}\obj{a})
 >    =\subfree{\propseq g\circ\propseq f}(\obj a)
 >    =\sub{f}(\obj a)
 >    =\obj a.
->\end{align*}
->$$ 
->So, $\obj{a}$ is stable in $\struc{A}$. The same argument
+>\end{align*}$$ So, $\obj{a}$ is stable in $\struc{A}$. The same argument
 >works for $\bar\sigma$-stability. 
 
 ## Stabilization

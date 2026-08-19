@@ -46,7 +46,7 @@ In mathematical logic, I'm interested in topics at the intersection of logic, al
 >
 >Under review. [[quantificationalism_formal.pdf|Draft]].
 >
->I formulate a higher-order logic in which [[Quantificationalism]] can be precisely formulated and shown to be consistent. This logic can be given a sound and complete semantics over [[Quantificational substitution structure|quantificational substitution structures]] (QSS). 
+>I formulate and explore a higher-order logic, [[Q]], in which [[Quantificationalism]] can be precisely formulated and shown to be consistent. This logic can be given a sound and complete semantics over [[Quantificational substitution structure|quantificational substitution structures]] (QSS). 
 
 >[!shared] An Algebraic Approach to Necessities
 >

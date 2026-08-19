@@ -14,8 +14,8 @@ public: true
 # Construction
 
 
-We work in $\mathcal{L}_0$. For any nice
-term sequence $\trmseq{F}$, define the mapping $\alpha_\trmseq{F}$
+We work in a standard higher-order language without non-standard syncategorematic operations nor restrictions on $\lambda$-abstraction,   $\mathcal{L}_0$. For any nice
+term sequence $\trmseq{F}$, define the mapping $\alpha_{\trmseq{F}}$
 recursively as follows.
 
 1.  $\alpha_{\trmseq{F}}(C):=C$ for each constant $C\in \Sigma^\sigma$
@@ -23,7 +23,7 @@ recursively as follows.
 
 2.  $\alpha_{\trmseq{F}}(\ex_\sigma):=F_\sigma$ if $F_\sigma$ is
     defined, $\alpha_{\trmseq{F}}(\ex_\sigma):=\ex_\sigma$
-    otherwise;[]{#tr-ex label="tr-ex"}
+    otherwise
 
 3.  $\alpha_{\trmseq{F}}(x):=x$ for each variable
     $x\in \mathit{Var}^\sigma$;
@@ -38,7 +38,7 @@ recursively as follows.
 
 
 
-It is well known that $\mathcal{L}_0$ carries an [[applicative structure]]
+It is well known that $\mathcal{L}_0$ carries an [[Applicative structure]]
 $\obj{\mathcal{L}_0}:=(\mathcal{L}_0, \app)$, where
 $\app^{\sigma\tau}(M, N):=MN$. Thus a *domain* over
 $\obj{\mathcal{L}_0}$ is essentially a nice term sequence. More exactly,
@@ -59,7 +59,7 @@ see that $\sim$ is an applicative congruence of our term applicative
 structure $(\mathcal{L}_0, \app)$. We then let $\obj{A}:=(A, \app)$ be
 the quotient of $\obj{\mathcal{L}_0}$ through $\sim$.
 
-To obtain a [[substitution structure]], we can lift the mappings
+To obtain a substitution structure, we can lift the mappings
 $\alpha^\sigma_{\trmseq{F}}$ to equivalence classes of terms. Write
 $[M]$ for the equivalence class of $M$ under $\sim$. A domain over
 $\obj{A}$ is then the result of lifting a domain over $\mathcal{L}_0$ to
