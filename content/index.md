@@ -21,4 +21,6 @@ Before the ILLC, I studied philosophy at the [University of St Andrews](https://
 
 I was born and raised in Udine, Italy. 
 
+%%[[Quantificationalism]]%%
+
   
