@@ -7,7 +7,7 @@ var ResearchLinks = () => {
     const links = [
       ["Research", "research"],
       ["Teaching", "teaching"],
-      ["CV", "CV.pdf"],
+      ["CV", "cv.pdf"],
       ["Database", "database"]
     ];
     return /* @__PURE__ */ jsxs("div", { class: "research-links", children: [
@@ -66,4 +66,4 @@ export {
   ResearchLinks,
   src_default
 };
-//# sourceMappingURL=chunk-G6LTFUN4.js.map
+//# sourceMappingURL=chunk-6GCGXVSK.js.map
