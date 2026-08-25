@@ -8,6 +8,7 @@ const ResearchLinks: QuartzComponentConstructor = () => {
       ["Research", "research"],
       ["Teaching", "teaching"],
       ["CV", "CV.pdf"],
+      ["Database", "database"],
     ] as const
 
     return (

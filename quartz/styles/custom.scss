@@ -2,6 +2,12 @@
 
 // put your custom CSS here!
 
+// override package default cap so search bar matches graph's full sidebar width
+.search {
+  max-width: none !important;
+  width: 100%;
+}
+
 .page-title {
   margin: 0;
   font-size: 2rem;

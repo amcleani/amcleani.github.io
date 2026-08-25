@@ -201,11 +201,11 @@ plugins:
       position: right
       priority: 10
   - source: "@quartz-community/search"
-    enabled: false
+    enabled: true
     layout:
-      position: left
-      priority: 20
-      group: toolbar
+      position: right
+      priority: 30
+      # group: toolbar
       groupOptions:
         grow: true
   - source: "@quartz-community/backlinks"

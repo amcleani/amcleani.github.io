@@ -1,7 +1,7 @@
 import {
   ResearchLinks,
   src_default
-} from "../chunk-OTNMX4WR.js";
+} from "../chunk-G6LTFUN4.js";
 export {
   ResearchLinks,
   src_default as default
