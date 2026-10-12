@@ -50,7 +50,7 @@ In mathematical logic, I'm interested in topics at the intersection of logic, al
 
 >[!shared] An Algebraic Approach to Necessities
 >
->In preparation. [[algebraicnec.pdf|Draft]].
+>Under review. [[algebraicnec.pdf|Draft]].
 >
 >[[@Bacon2023APItHOL]] defines a [[necessity]] by internalizing the *proof theory* of normal modal logics. I introduce [[algebraic necessity|a concept of necessity]] that instead internalizes the *algebraic semantics* of normal modal logics. I show that the two concepts are equivalent. Then, I apply the algebraic perspective to show that, in Classicism, [[Algebra of necessities|necessities form a Heyting algebra with respect to entailment]], solving an open problem from [[@BaconZeng2022AToN]]. Pseudocomplements of necessities are intimately connected with the idea of an [[infinitely closed necessity]]
 
