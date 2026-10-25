@@ -8,7 +8,7 @@ I have teaching experience in logic, ethics, epistemology, political philosophy 
 
 One of the main goals that guide my teaching is [[the value of mistakes and confusion|normalizing making mistakes and the experience of confusion]]. Recently, I've been experimenting with [[teaching philosophy using simulations]].
 
-In recognition of my dedication to teaching, I was awarded the [University Outstanding Teaching Assistant Award](https://cet.usc.edu/awards-grants/university-outstanding-teaching-assistant-award/) and the [Mentored Teaching Fellowship](https://cet.usc.edu/mentored-fellows/) by USC and the Center for Excellence in Teaching. 
+In recognition of my dedication to teaching, I was awarded the [University Outstanding Teaching Assistant Award](https://cet.usc.edu/awards-grants/university-outstanding-teaching-assistant-award/) ([[2026_uta_award.pdf|certificate]]) and the [Mentored Teaching Fellowship](https://cet.usc.edu/mentored-fellows/) by USC and the Center for Excellence in Teaching. 
 
 # Primary instructor
 
@@ -20,13 +20,13 @@ In recognition of my dedication to teaching, I was awarded the [University Outst
 
 >[!Abstract] CORE 195: Philosophy of Economic Markets, Money and Property
 >
->USC Pre-college, Summer 2026. [[PEMMP_2026.pdf|Syllabus]]
+>USC Pre-college, Summer 2026. [[pemmp_2026.pdf|Syllabus]]
 >
 > An introductory course for high-school students covering elements of decision theory and game theory, and selected topics at the intersection of ethics, political philosophy and economics. Taught partly using [SIMSOC: Simulated Society](https://en.wikipedia.org/wiki/Simulated_Society).
 
 >[!Abstract] CORE 195: Philosophy of Economic Markets, Money and Property
 >
->USC Pre-college, Summer 2025. [[PMMP_2025.pdf|Syllabus]]
+>USC Pre-college, Summer 2025. [[pmmp_2025.pdf|Syllabus]]
 >
 > An introductory course for high-school students covering elements of decision theory and game theory, and selected topics at the intersection of ethics, political philosophy and economics. 
 
@@ -38,7 +38,7 @@ In recognition of my dedication to teaching, I was awarded the [University Outst
 
 >[!Abstract] PHIL 122 AB: Reasoning and Argument
 >
->USC, Fall 2022. [[PHIL122_IPC.pdf|Syllabus]]
+>USC, Fall 2022. [[phil122_ipc.pdf|Syllabus]]
 >
 > An introduction to logic course covering propositional calculi, including classical propositional logics and elements of modal and superintuitionistic logics.
 
@@ -48,7 +48,7 @@ In recognition of my dedication to teaching, I was awarded the [University Outst
 
   >[!Abstract] PHIL 431: Law, Society, and Politics
   >
-  >USC, Spring 2025. Taught by [Jonathan Quong](https://dornsife.usc.edu/profile/jonathan-quong).  [[PHIL431Syllabus.pdf|Syllabus]]
+  >USC, Spring 2025. Taught by [Jonathan Quong](https://dornsife.usc.edu/profile/jonathan-quong).  [[phil431syllabus.pdf|Syllabus]]
   >
   >An advanced undergraduate course on the ethics of self defense and the ethics of war. 
   
@@ -61,6 +61,6 @@ In recognition of my dedication to teaching, I was awarded the [University Outst
 
 >[!Abstract] PHIL/ENGR 265: Ethics, Technology, and Value
 >
->USC, Spring 2023. Taught by [Jake Ross](https://sites.google.com/view/jakeross/home) and [Elisa Warford](https://viterbi.usc.edu/directory/faculty/Warford/Elisa). [[PHIL 265 Syllabus Spr ‘23.pdf|Syllabus]]
+>USC, Spring 2023. Taught by [Jake Ross](https://sites.google.com/view/jakeross/home) and [Elisa Warford](https://viterbi.usc.edu/directory/faculty/Warford/Elisa). [[phil265_syllabus_spr23.pdf|Syllabus]]
 >
 >A course on ethical issues surrounding technology. Topics covered include climate change and collective action, hate speech and misinformation, algorithmic injustice, the moral status of AIs. 
