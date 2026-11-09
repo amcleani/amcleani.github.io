@@ -40,12 +40,14 @@ $$
 
 But in free logics universally quantified claims do not imply all their instances, so Leibniz equivalence is actually weaker than applicative indiscernibility. 
 
-Again, for the free logician, applicative indiscernibility and Leibniz equivalence and applicative equivalence are distinct relation that classical logic conflates. 
+Again, for the free logician, applicative indiscernibility and Leibniz equivalence are distinct relations that classical logic conflates. 
 
 # Identity
 
 Whether [[identity]] should be reduced to applicative indiscernibility or substitutional indiscernibility (if either) depends on what the restrictions on $\lambda$-abstraction in the ambient logic are supposed to model. 
 
-One might be using restrictions on $\lambda$ to model [[genuine syncategorematicity]], in which case substitutional indiscernibility seems like the better candidate. 
+One might be using restrictions on $\lambda$ to model [[syncategorematicity]], in which case substitutional indiscernibility seems like the better candidate. 
 
-On the other hand, to deal with [[Frege's puzzle]] you might have a view where co-referential terms are not intersubstitutable in [[opacity|opaque contexts]], and you might restrict $\lambda$-abstraction within opaque contexts to avoid generating higher-order properties corresponding to opaque contexts. In such a framework, applicative indiscernibility looks like the better candidate. 
+On the other hand, to deal with [[Frege's puzzle]] you might have a view where co-referential terms are not intersubstitutable in [[opacity|opaque contexts]], and you might restrict $\lambda$-abstraction within opaque contexts to avoid generating higher-order properties corresponding to opaque contexts. In such a framework, applicative indiscernibility looks like the better candidate.
+
+In [[Q]], identity is analyzed as applicative indiscernibility at all domains of quantification, $M=N:=\alldom(M\equiv N)$, and $\equiv$ itself [[Applicative indiscernibility is provably not domain-invariable in Q|provably fails substitutional Leibniz's Law]].

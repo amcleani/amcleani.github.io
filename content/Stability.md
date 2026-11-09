@@ -20,13 +20,6 @@ For example, the property of *loving someone* is not stable. It is defined in te
 I think canonical examples of stable properties are Boolean operations (negation, conjunction, ...) and combinators (entities expressed by closed terms without occurrences of constants, like $\lambda x. x$).
 
 
-# Relationship with fundamentality
-
-I am intrigued by the idea that all fundamental relations are stable. 
-
-[[@Kaplan1995APiPWS]] sketches a view of this sort. On his view, the world can be completely described by specifying (i) which fundamental properties are instantiated where, and (ii) which things exist. The pattern of instantiation of fundamental properties is independent of which things exist, suggesting fundamental properties are stable. 
-
-Grounding theorists also seem to be committed to something like this idea, at least when it comes to fundamental propositions. Grounding theorists think that quantified propositions are grounded in their instances. Since no fundamental proposition is grounded by anything, fundamental propositions cannot be quantified. 
 
 # Relationship with domain specifiers
 
@@ -36,7 +29,7 @@ On the other hand, stable entities should be "fixed" by all domain specifiers.
 
 # Model-theoretic representation
 
-There is a model-theoretic representation of the notion of stability definable in [[quantificational substitution structure]]s. It is essentially the restriction of the
+There is a model-theoretic representation of the notion of stability definable in [[Quantificational substitution structure]]s. It is essentially the restriction of the
 concept of *purity* from [[@Bacon2019SS]] to QSSs.
 
 >[!Definition]
@@ -73,22 +66,26 @@ some stabilizing (resp. $\bar\sigma$-stabilizing) substitution.
 >assumptions about stable domains. Conversely, take any stabilizing
 >substitution $\sub{g}$. When $\propseq{g}$ is a $\bar\tau$-domain, we
 >know there is a stable $\bar\tau$-domain $\propseq{f}$ such that
->$\sub{f}\obj{a}=\obj{a}$. But this implies $$\begin{align*}
+>$\sub{f}\obj{a}=\obj{a}$. But by (Composition) and the stability of $\propseq f$ this implies 
+>$$
+>\begin{align*}
 >    \sub{g}\obj{a}&=\sub{g}(\sub{f}\obj{a})
->    =\subfree{\propseq g\circ\propseq f}(\obj a)
+>    =\subfree{\propseq g\bullet\propseq f}(\obj a)
 >    =\sub{f}(\obj a)
 >    =\obj a.
->\end{align*}$$ So, $\obj{a}$ is stable in $\struc{A}$. The same argument
+>\end{align*}
+>$$ 
+>So, $\obj{a}$ is stable in $\struc{A}$. The same argument
 >works for $\bar\sigma$-stability. 
 
 ## Stabilization
 
-We can formulate comprehension conditions for the class of stable entities in a [[models for quantificationalism|model]].
+We can formulate comprehension conditions for the class of stable entities in a [[models based on QSSs|model]].
 
 A second class of stability-theoretic conditions consists of
 *comprehension* conditions for the class of stable entities. Some applications of
 [[Quantificationalism]]---most
-importantly[[metaphysical predicativity]]---rely on the
+importantly [[metaphysical predicativity]]---rely on the
 existence of *enough* stable properties. Comprehension principles for
 stability are a natural way of ensuring just that.
 
@@ -107,5 +104,5 @@ notion of a $\bar\sigma$-stabilizer.
 >*$\bar\sigma$-stabilized*) when every entity has a stabilizer (resp. a
 >$\bar\sigma$-stabilizer)
 
-Clearly, only [[models based on QSSs#Regularity|irregular]] models can be stabilized. 
+Stabilization does not make sense for regular, Leibnizian models: a stabilized regular Leibnizian model would be one in which every entity is stable, and there are no such models. But stabilization can be had by [[models based on QSSs#Regularity|irregular]], quasi-Leibnizian models.
 

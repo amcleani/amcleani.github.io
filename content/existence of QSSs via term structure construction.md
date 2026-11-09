@@ -33,8 +33,10 @@ recursively as follows.
 
 5.  $\alpha_{\trmseq{F}}(\lambda x. M):=\lambda x. \alpha_{\trmseq{F}}(M)$;
 
-6.  $\alpha_{\trmseq{F}}(Q x P):=Q x \alpha^{t}_{\trmseq{F}}(P)$
-    whenever $x\in \mathit{Var}^\sigma$ and $Q\in \{\forall, \exists\}$.
+6.  $\alpha_{\trmseq{F}}(\forall x P):=\forall x \alpha_{\trmseq{F}}(P)$
+    whenever $x\in \mathit{Var}^\sigma$.
+
+In the last two clauses the bound variable $x$ is relabeled to avoid capture. Note that $\alpha_{\trmseq F}$ does not "move" unguarded quantifier occurrences, i.e. ones not syntactically restricted by a predicate containing an existence predicate: $\alpha_{F}(\exists x Yx)=\exists x Yx$ when $Y$ is a variable. Only guarded quantifiers have their domain specified in this model.
 
 
 
@@ -52,11 +54,8 @@ another correspond to the same domain.
 We define a typed family of equivalence relations
 $\sim_\sigma\subseteq \mathcal{L}_0^\sigma\times \mathcal{L}_0^\sigma$
 on $\mathcal{L}_0$ by setting
-$$M\sim_\sigma N\iff \logic{H_0}\vdash \alpha^\sigma_{\trmseq{F}}(M)\bar v\leftrightarrow \alpha^\sigma_{\trmseq{F}}(N)\bar v\text{ for every nice term sequence $\trmseq{F}$}.$$
-Intuitively, then, $M\sim N$ means that $M$ and $N$ are provably
-equivalent in [[H]], and remain so under arbitrary translations. It is easy to
-see that $\sim$ is an applicative congruence of our term applicative
-structure $(\mathcal{L}_0, \app)$. We then let $\obj{A}:=(A, \app)$ be
+$$M\sim_\sigma N\iff \logic{H}_0\vdash \alpha_{\trmseq{F}}(M)\equiv \alpha_{\trmseq{F}}(N)\text{ for every nice term sequence $\trmseq{F}$}.$$
+Intuitively, then, $M\sim N$ means that $M$ and $N$ are provably applicatively indiscernible in $\logic{H}_0$ (the classical system over $\mathcal L_0$, which translates into Bacon's [[H]]), and remain so under arbitrary translations. It is straightforward to verify that $\sim$ is an applicative congruence of our term applicative structure $(\mathcal{L}_0, \app)$. We then let $\obj{A}:=(A, \app)$ be
 the quotient of $\obj{\mathcal{L}_0}$ through $\sim$.
 
 To obtain a substitution structure, we can lift the mappings
@@ -70,7 +69,7 @@ more slightly abusing notation.
 To each such domain $[\trmseq{F}]$ we assign a substitution $\subtm{F}$
 by setting $$\subtm{F}[M]:=[\alpha_{\trmseq{F}}(M)].$$ It is not
 difficult to verify that $\subtm{F}$ and $\subtm{G}$ are identical
-whenever $[\trmseq{F}]=[\trmseq{G}]$.
+whenever $[\trmseq{F}]=[\trmseq{G}]$. The identity substitution is $\subtm{\ex_\sigma}$, for any $\sigma$, as $\alpha_{\ex_\sigma}$ fixes every term; closure under composition holds because $\subtm{G}\circ\subtm{F}=\subfree{[\trmseq G]\bullet[\trmseq F]}$. The identity domains are the $[\trmseq F]$ with $F_\sigma\sim\ex_\sigma$ for every $\sigma$ on which $\trmseq F$ is defined.
 
 It is then straightforward
 to check that

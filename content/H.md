@@ -17,7 +17,7 @@ Axiom instances include both open and closed terms. $\Phi[A]$ stands for a term 
 - $\vdash FA\to \exists F$ (EG)
 - $\vdash A=A$ (Ref)
 - $\vdash A=B\to FA=FB$ (LL)
-- $\vdash \Phi[(\lambda v. A)B]\leftrightarrow \Phi[A[v/A]]$ when $v$ is substitutable for $A$ ($\beta$)
+- $\vdash \Phi[(\lambda v. A)B]\leftrightarrow \Phi[A[B/v]]$ when $B$ is substitutable for $v$ in $A$ ($\beta$)
 - $\vdash \Phi[\lambda v. Fv]\leftrightarrow \Phi[F]$ when $v$ is not free in $F$ ($\eta$)
 - If $\vdash P$ and $\vdash P\to Q$ then $\vdash Q$ (MP)
 - If $\vdash P\to Q$ and $v$ is not free in $P$ then $\vdash P\to \forall v Q$ (Gen)
