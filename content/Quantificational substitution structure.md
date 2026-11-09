@@ -86,7 +86,8 @@ The existence assumption about identity unit domains is motivated by the intende
 
 
 [[#^def-qss|Identity]] is a bit more complicated.  We could obtain an equivalent definition if we replaced it with the claim that both the following identities hold for any $\bar\sigma$-domain $\propseq{f}$:
-$$\begin{align} 
+$$
+\begin{align} 
 \sub{f}\obj{e_\sigma}&=\obj{f}_\sigma &\text{whenever $\sigma\in \bar\sigma$}\tag{Generality}\\ 
 \sub{f}\obj{e_\tau}&=\obj{e}_\tau &\text{whenever $\tau\notin \bar\sigma$}\tag{Modularity} \end{align}
 $$ 
